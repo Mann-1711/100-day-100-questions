@@ -1,45 +1,37 @@
 # 🚀 100 Days, 100 Questions
 
-A personal **100-day Python challenge** where I solve one programming question every day to improve my logic, problem-solving skills, and Python fundamentals.
-
-> **100 days. 100 questions. One question at a time. 🐍**
-
----
+A 100-day Python challenge focused on building **problem-solving skills, programming logic, and consistency** — one question at a time.
 
 ## 🎯 Goal
 
-The main goal of this challenge is to become better at solving problems **independently**, rather than simply following tutorials or copying solutions.
+Solve **100 Python questions in 100 days** while gradually improving my:
 
-Throughout these 100 days, I want to improve:
-
-* 🧠 Logical thinking
 * 🐍 Python fundamentals
-* 💻 Problem-solving
-* 🔍 Debugging
-* 🧩 Understanding algorithms and patterns
-* 📈 Consistency
+* 🧠 Problem-solving skills
+* 💡 Programming logic
+* 🔧 Ability to build programs independently
+* 📈 Consistency in coding
 
 ---
 
 ## 📊 Progress
 
-**2 / 100 questions completed — 2% 🚀**
+**3 / 100 Days Completed**
 
-* [x] Q1 — Completed
-* [x] Q2 — Completed
-* [ ] Q3
-* [ ] Q4
-* [ ] Q5
-* [ ] ...
-* [ ] Q100
-
-I will update this section as I complete each question.
+| Day       | Question | Main Concepts                                   |
+| --------- | -------- | ----------------------------------------------- |
+| ✅ Day 1   | Q1       | Python fundamentals & logic                     |
+| ✅ Day 2   | Q2       | Python problem solving                          |
+| ✅ Day 3   | Q3       | Functions, parameters, arguments & conditionals |
+| ⬜ Day 4   | Q4       | Coming soon                                     |
+| ⬜ ...     | ...      | ...                                             |
+| ⬜ Day 100 | Q100     | Final challenge                                 |
 
 ---
 
 ## 📁 Repository Structure
 
-Each problem has its own Python file:
+Each question has its own Python file:
 
 ```text
 100-day-100-questions/
@@ -49,122 +41,60 @@ Each problem has its own Python file:
 ├── Q3.py
 ├── Q4.py
 ├── ...
-├── Q100.py
-│
-└── README.md
+└── Q100.py
 ```
 
+The aim is to keep the solutions simple, readable, and based on concepts I have actually learned.
+
 ---
 
-## 📚 What I'm Practicing
+## 🧠 Concepts I'm Building
 
-The questions will gradually cover the Python and problem-solving concepts I learn.
+Throughout the challenge, I will gradually work with:
 
-### Python Fundamentals
-
-* Variables
-* Data types
-* Input / output
-* Operators
+* Variables & data types
+* Input & output
 * Conditional statements
 * Loops
-* Strings
-
-### Data Structures
-
-* Lists
-* Tuples
-* Dictionaries
-* Sets
-
-### Functions
-
 * Functions
-* Parameters and arguments
-* Return values
-* Recursion
-
-### Problem Solving
-
-* Logical problems
-* Number problems
-* Pattern-based problems
-* Searching
-* Basic algorithms
-* Debugging
-
-More advanced topics will be added as I learn them.
-
----
-
-## 📜 My Rules
-
-1. Solve **one question every day**.
-2. Understand the problem before writing the solution.
-3. Try to solve it myself first.
-4. Avoid blindly copying solutions.
-5. Understand my mistakes when debugging.
-6. Learn from every problem, even if the solution is simple.
-7. Stay consistent for all 100 days.
-
----
-
-## 🧠 The Process
-
-For every question, I'm trying to follow:
-
-**Understand → Think → Plan → Code → Test → Debug → Improve**
-
-The goal isn't simply to collect 100 solved files.
-
-The goal is to become better at **thinking like a programmer**.
-
----
-
-## 📈 Why I'm Doing This
-
-I'm currently learning Python as a BCA Artificial Intelligence & Machine Learning student.
-
-I'm using this challenge alongside my projects to build a strong programming foundation before moving into more advanced topics such as:
-
+* Lists, tuples, sets & dictionaries
+* Strings
+* Problem-solving patterns
 * Object-Oriented Programming
-* Data Structures & Algorithms
-* SQL & Databases
-* Machine Learning
-* AI
+* Data structures
+* Algorithms
+* And eventually more advanced Python concepts
 
 ---
 
-## 🔥 Challenge Status
+## 📌 Rules
 
-**Day 2 / 100**
-
-**Questions solved: 2 / 100**
-
-**Current streak: 2 days 🔥**
-
-The challenge is still just getting started.
-
----
-
-## 👨‍💻 About Me
-
-**Manraj Singh**
-
-BCA — Artificial Intelligence & Machine Learning
-
-Currently learning Python, building projects, and improving my problem-solving skills one problem at a time.
-
-GitHub: [@Mann-1711](https://github.com/Mann-1711)
+1. **One question every day**
+2. Try to solve problems independently before looking for help.
+3. Understand the logic instead of simply copying solutions.
+4. Keep each solution in its own file.
+5. Track progress honestly.
+6. Learn from mistakes and improve previous solutions when necessary.
 
 ---
 
-## 🏁 The Goal
+## 🔥 My Approach
 
-**Q1 → Q2 → Q3 → ... → Q100**
+I'm not trying to rush through 100 questions.
 
-One day at a time.
+The goal is to make each question contribute something to my programming fundamentals.
 
-One problem at a time.
+> **Understand → Attempt → Debug → Learn → Move on.**
 
-**Let's see what 100 days of consistency can build. 🚀**
+---
+
+## 📈 Current Status
+
+**Day 3 / 100**
+
+Currently focusing on strengthening my Python fundamentals and learning how to structure programs using functions.
+
+### Recent Progress
+
+* ✅ Q1 completed
+* ✅ Q2
