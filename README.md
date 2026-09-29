@@ -16,16 +16,17 @@ Solve **100 Python questions in 100 days** while gradually improving my:
 
 ## 📊 Progress
 
-**3 / 100 Days Completed**
+**4 / 100 Days Completed**
 
-| Day       | Question | Main Concepts                                   |
-| --------- | -------- | ----------------------------------------------- |
-| ✅ Day 1   | Q1       | Python fundamentals & logic                     |
-| ✅ Day 2   | Q2       | Python problem solving                          |
-| ✅ Day 3   | Q3       | Functions, parameters, arguments & conditionals |
-| ⬜ Day 4   | Q4       | Coming soon                                     |
-| ⬜ ...     | ...      | ...                                             |
-| ⬜ Day 100 | Q100     | Final challenge                                 |
+| Day       | Question | Status          |
+| --------- | -------- | --------------- |
+| ✅ Day 1   | Q1       | Completed       |
+| ✅ Day 2   | Q2       | Completed       |
+| ✅ Day 3   | Q3       | Completed       |
+| ✅ Day 4   | Q4       | Completed       |
+| ⬜ Day 5   | Q5       | Coming soon     |
+| ⬜ ...     | ...      | ...             |
+| ⬜ Day 100 | Q100     | Final challenge |
 
 ---
 
@@ -40,6 +41,7 @@ Each question has its own Python file:
 ├── Q2.py
 ├── Q3.py
 ├── Q4.py
+├── Q5.py
 ├── ...
 └── Q100.py
 ```
@@ -90,11 +92,38 @@ The goal is to make each question contribute something to my programming fundame
 
 ## 📈 Current Status
 
-**Day 3 / 100**
-
-Currently focusing on strengthening my Python fundamentals and learning how to structure programs using functions.
-
-### Recent Progress
+**Day 4 / 100**
 
 * ✅ Q1 completed
-* ✅ Q2
+* ✅ Q2 completed
+* ✅ Q3 completed
+* ✅ Q4 completed
+* 🔄 Continuing toward Q100
+
+Currently building consistency while strengthening my Python fundamentals and problem-solving ability.
+
+---
+
+## 🎯 Why I'm Doing This
+
+I'm starting my programming journey from the fundamentals and using this challenge to build a strong foundation for future work in:
+
+**Python → OOP → DSA → AI/ML → Software Engineering**
+
+This repository is a record of that progression.
+
+---
+
+## 👨‍💻 Author
+
+**Manraj Singh**
+
+BCA AI&ML Student @ LPU
+
+GitHub: **Mann-1711**
+
+---
+
+# 🚀 4 / 100 — Keep Going
+
+**One question. One day. One step forward. 🐍**
