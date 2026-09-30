@@ -1,359 +1,130 @@
-# 🐍 100 Programs to Build Problem-Solving
+# 🚀 100 Days, 100 Questions
 
-A structured **100-program Python challenge** designed to strengthen my programming fundamentals and problem-solving ability before moving deeper into **DSA, LeetCode, and larger projects**.
+A **100-day Python challenge** focused on building my **problem-solving skills, programming logic, and consistency**.
 
-I am completing the programs **in order**, starting from basic input/output and gradually moving toward loops, number problems, patterns, strings, lists, and mixed challenge problems.
+The goal is simple:
 
----
+> **Solve 1 Python question every day for 100 days.**
 
-## 🎯 The Goal
-
-The goal isn't just to complete 100 programs.
-
-It's to build the ability to:
-
-* Understand a problem before coding
-* Break problems into smaller steps
-* Develop programming logic
-* Write code independently
-* Debug my own mistakes
-* Improve solutions after they work
-* Build a strong foundation before DSA
-
-The challenge is based on the principle:
-
-> **Basics → Logic → Loops → Numbers → Patterns → Strings → Lists → Challenges → DSA**
+This repository documents my progress from beginner-level Python problems toward stronger programming fundamentals and eventually **OOP, DSA, AI/ML, and Software Engineering**.
 
 ---
 
-# 📊 Progress
+## 📈 Progress
 
-### **5 / 100 Programs Completed**
+**6 / 100 Questions Completed**
+
+| Day | Question                                | Status      |
+| --- | --------------------------------------- | ----------- |
+| Q1  | Python Problem 1                        | ✅ Completed |
+| Q2  | Python Problem 2                        | ✅ Completed |
+| Q3  | Python Problem 3                        | ✅ Completed |
+| Q4  | Python Problem 4                        | ✅ Completed |
+| Q5  | Python Problem 5                        | ✅ Completed |
+| Q6  | Swap two numbers using a third variable | ✅ Completed |
+| Q7  | Coming soon...                          | ⏳           |
+
+---
+
+## 📂 Repository Structure
+
+Each question has its own Python file:
 
 ```text
-█████░░░░░░░░░░░░░░░  5%
+Q1.py
+Q2.py
+Q3.py
+Q4.py
+Q5.py
+Q6.py
+...
+Q100.py
 ```
 
-| Program  | Status        |
-| -------- | ------------- |
-| Q1       | ✅ Completed   |
-| Q2       | ✅ Completed   |
-| Q3       | ✅ Completed   |
-| Q4       | ✅ Completed   |
-| Q5       | ✅ Completed   |
-| Q6–Q10   | ⬜ Not started |
-| Q11–Q20  | ⬜ Not started |
-| Q21–Q32  | ⬜ Not started |
-| Q33–Q43  | ⬜ Not started |
-| Q44–Q56  | ⬜ Not started |
-| Q57–Q67  | ⬜ Not started |
-| Q68–Q79  | ⬜ Not started |
-| Q80–Q91  | ⬜ Not started |
-| Q92–Q100 | ⬜ Not started |
+The goal is to keep every problem separate so I can look back and see how my programming and problem-solving skills improve over time.
 
 ---
 
-# 🗺️ Challenge Roadmap
+## 🧠 Concepts I'm Practicing
 
-The 100 programs are divided into **9 levels**, progressing from beginner fundamentals to mixed problem-solving challenges.
+Throughout the 100 days, I will gradually work with:
 
-### 🟢 Level 1 — Warm-up
-
-**Programs 1–10**
-
-Focus:
-
-* Output
-* Variables
-* Basic input
-* Arithmetic
-* Basic calculations
-
-Examples include:
-
-* Hello World
-* Sum of two numbers
-* Basic arithmetic operations
-* Circle calculations
-* Rectangle calculations
-* Temperature conversion
-* Marks and averages
-
----
-
-### 🟡 Level 2 — Conditions
-
-**Programs 11–20**
-
-Focus:
-
-* `if`
-* `elif`
-* `else`
-* Comparisons
-* Logical conditions
-
-Problems include:
-
-* Even/odd
-* Positive/negative/zero
-* Largest/smallest number
-* Leap year
-* Vowels/consonants
-* Grades
-* Divisibility
-* Voting eligibility
-
----
-
-### 🔵 Level 3 — Loops on N
-
-**Programs 21–32**
-
-Focus:
-
-* `for` loops
-* Repetition
-* Ranges
-* Counting
-* Summation
-* Multiplication tables
-
-This is where the challenge starts moving heavily into **loop-based problem solving**.
-
----
-
-### 🟣 Level 4 — Digits of a Number
-
-**Programs 33–43**
-
-Focus:
-
-* Number manipulation
-* Digits
-* Reversing numbers
-* Digit sums/products
-* Palindromes
-* Largest/smallest digit
-
----
-
-### 🔴 Level 5 — Number Classification
-
-**Programs 44–56**
-
-Focus:
-
-* Prime numbers
-* Armstrong numbers
-* Perfect numbers
-* Strong numbers
-* Factors
-* GCD/HCF
-* LCM
-
----
-
-### 🟠 Level 6 — Series & Patterns
-
-**Programs 57–67**
-
-Focus:
-
-* Fibonacci
-* Mathematical series
-* Powers
-* Nested loops
-* Star patterns
-* Number patterns
-* Pascal's triangle
-
----
-
-### 🟦 Level 7 — Strings
-
-**Programs 68–79**
-
-Focus:
-
-* String traversal
-* Character counting
-* Reversing strings
-* Palindromes
-* Character frequency
-* Anagrams
-* String manipulation
-
----
-
-### 🟩 Level 8 — Arrays / Lists
-
-**Programs 80–91**
-
-Focus:
-
-* Lists/arrays
-* Searching
-* Reversing
-* Frequency counting
-* Duplicates
-* Sorting
-* Merging
-* Index-based problems
-
-The roadmap specifically introduces linear search, bubble sort, frequency counting, and related list/array problems here.
-
----
-
-### 🔥 Level 9 — Challenge Round
-
-**Programs 92–100**
-
-The final section combines concepts from the earlier levels.
-
-It includes problems involving:
-
+* Variables & Data Types
+* Input & Output
+* Conditional Statements
+* Loops
 * Functions
-* Prime numbers
-* Number ranges
-* Repeated digit sums
-* Prime digits
-* Palindrome + prime
-* Digit rearrangement
-* Decimal/binary conversion
-* Menu-driven programs
-
-Program 100 is a menu-driven program that repeatedly allows the user to choose tasks until they exit.
+* Strings
+* Lists & Tuples
+* Dictionaries & Sets
+* Problem-Solving Patterns
+* Object-Oriented Programming
+* Data Structures
+* Algorithms
+* And eventually more advanced Python concepts
 
 ---
 
-# 📌 My Rules
+## 📜 Challenge Rules
 
-I'm following the original challenge principles:
-
-### 1. 🐍 Stick to Python
-
-I'm completing all 100 programs in **Python** instead of switching languages midway.
-
-### 2. 📈 Follow the Order
-
-I won't randomly jump to advanced problems.
-
-The difficulty is designed to increase gradually, so I'm following the sequence.
-
-### 3. 🧠 Try Before Looking
-
-I'll spend time trying to solve a problem myself before looking for help.
-
-The challenge recommends struggling with a problem for around **10–15 minutes** before seeking a solution.
-
-### 4. ⌨️ No Copy-Paste
-
-I'll type the programs myself.
-
-The point is to build **problem-solving ability**, not collect copied solutions.
-
-### 5. 🔍 Improve After Solving
-
-After getting a program working, I'll ask:
-
-> **Can I make the logic cleaner or simpler?**
-
-### 6. 📝 Track Everything
-
-Every completed problem gets its own file and is marked as completed.
+1. 🗓️ Solve **one question every day**
+2. 🧠 Try to solve the problem independently first
+3. 🚫 Don't blindly copy solutions
+4. 💻 Keep each question in its own file
+5. 📊 Track progress honestly
+6. 🔍 Understand mistakes instead of just fixing them
+7. 🚀 Keep progressing even when the questions become harder
 
 ---
 
-# 📁 Repository Structure
+## 🔄 My Approach
 
-```text
-100-day-100-questions/
-│
-├── Q1.py
-├── Q2.py
-├── Q3.py
-├── Q4.py
-├── Q5.py
-├── Q6.py
-├── Q7.py
-├── ...
-├── Q99.py
-└── Q100.py
-```
+For every question, I try to follow:
 
-Each file contains my solution to one program from the roadmap.
+**Understand → Think → Attempt → Debug → Learn → Move On**
+
+The goal isn't just to finish 100 questions.
+
+The goal is to become better at **thinking like a programmer**.
 
 ---
 
-# 📚 What I'm Building
+## 🎯 Current Status
 
-This challenge is intended to build my foundation in:
+**Day 6 / 100**
 
-```text
-Python Fundamentals
-        ↓
-Conditional Logic
-        ↓
-Loops
-        ↓
-Number Problems
-        ↓
-Patterns
-        ↓
-Strings
-        ↓
-Lists
-        ↓
-Mixed Problem Solving
-        ↓
-DSA
-```
+### Completed so far:
 
-The roadmap itself positions these 100 programs as preparation **before moving into DSA/LeetCode**.
+* Variables
+* Basic input/output
+* Basic problem-solving
+* Loops
+* Running totals
+* Swapping values using a temporary variable
 
 ---
 
-# 📈 Current Status
+## 🚀 Why I'm Doing This
 
-### **5 / 100 Completed**
+I'm using this challenge as a foundation for my larger learning journey:
 
-Current completed programs:
+**Python → OOP → DSA → AI/ML → Software Engineering**
 
-* ✅ Q1
-* ✅ Q2
-* ✅ Q3
-* ✅ Q4
-* ✅ Q5
-
-### Current Level
-
-**Level 1 — Warm-up**
-
-I'm currently building the fundamentals needed before the challenge moves into conditions and loops.
+I started this challenge to build consistency and strengthen my fundamentals before moving into more difficult programming and DSA problems.
 
 ---
 
-# 🚀 Why I'm Doing This
+## 👨‍💻 About Me
 
-I'm starting from the basics and deliberately building my programming logic instead of rushing directly into DSA.
+**Manraj Singh**
+BCA AI&ML Student @ LPU
 
-This repository will serve as a record of my progression from:
-
-**Beginner Python → Strong Fundamentals → Problem Solving → DSA**
-
-Every program is another step toward becoming a stronger programmer.
+GitHub: **Mann-1711**
 
 ---
 
-# 🎯 Final Goal
+## 🔥 Challenge Progress
 
-**100 Programs → Strong Fundamentals → DSA → Bigger Projects**
+> **6 / 100 — Keep Going.**
 
-The challenge ends at Program 100, but the learning doesn't.
-
-> **100 problems. 100 attempts. 100 opportunities to get better.**
-
-## 🐍 5 / 100
-
-**The journey has started.**
+**One question. One day. One step forward. 🐍**
