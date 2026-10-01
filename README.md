@@ -12,7 +12,7 @@ This repository documents my progress from beginner-level Python problems toward
 
 ## 📈 Progress
 
-**6 / 100 Questions Completed**
+**7 / 100 Questions Completed**
 
 | Day | Question                                | Status      |
 | --- | --------------------------------------- | ----------- |
@@ -22,7 +22,8 @@ This repository documents my progress from beginner-level Python problems toward
 | Q4  | Python Problem 4                        | ✅ Completed |
 | Q5  | Python Problem 5                        | ✅ Completed |
 | Q6  | Swap two numbers using a third variable | ✅ Completed |
-| Q7  | Coming soon...                          | ⏳           |
+| Q7  | Python Problem 7                        | ✅ Completed |
+| Q8  | Coming soon...                          | ⏳           |
 
 ---
 
@@ -37,6 +38,7 @@ Q3.py
 Q4.py
 Q5.py
 Q6.py
+Q7.py
 ...
 Q100.py
 ```
@@ -91,16 +93,17 @@ The goal is to become better at **thinking like a programmer**.
 
 ## 🎯 Current Status
 
-**Day 6 / 100**
+**Day 7 / 100**
 
 ### Completed so far:
 
 * Variables
 * Basic input/output
-* Basic problem-solving
+* Conditional statements
 * Loops
 * Running totals
 * Swapping values using a temporary variable
+* Basic problem-solving
 
 ---
 
@@ -125,6 +128,6 @@ GitHub: **Mann-1711**
 
 ## 🔥 Challenge Progress
 
-> **6 / 100 — Keep Going.**
+> **7 / 100 — Keep Going.**
 
 **One question. One day. One step forward. 🐍**
