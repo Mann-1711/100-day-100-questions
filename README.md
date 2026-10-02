@@ -1,29 +1,30 @@
 # 🚀 100 Days, 100 Questions
 
-A **100-day Python challenge** focused on building my **problem-solving skills, programming logic, and consistency**.
+A **100-day Python challenge** focused on building problem-solving skills, programming logic, consistency, and confidence through daily practice.
 
-The goal is simple:
+## 🎯 Goal
 
-> **Solve 1 Python question every day for 100 days.**
+Solve **100 Python questions in 100 days** — one question every day.
 
-This repository documents my progress from beginner-level Python problems toward stronger programming fundamentals and eventually **OOP, DSA, AI/ML, and Software Engineering**.
+The goal isn't just to finish 100 questions. It's to become better at **thinking like a programmer**.
 
 ---
 
-## 📈 Progress
+## 📊 Progress
 
-**7 / 100 Questions Completed**
+**8 / 100 completed**
 
-| Day | Question                                | Status      |
-| --- | --------------------------------------- | ----------- |
-| Q1  | Python Problem 1                        | ✅ Completed |
-| Q2  | Python Problem 2                        | ✅ Completed |
-| Q3  | Python Problem 3                        | ✅ Completed |
-| Q4  | Python Problem 4                        | ✅ Completed |
-| Q5  | Python Problem 5                        | ✅ Completed |
-| Q6  | Swap two numbers using a third variable | ✅ Completed |
-| Q7  | Python Problem 7                        | ✅ Completed |
-| Q8  | Coming soon...                          | ⏳           |
+| Day | Question       | Status      |
+| --- | -------------- | ----------- |
+| Q1  | Question 1     | ✅ Completed |
+| Q2  | Question 2     | ✅ Completed |
+| Q3  | Question 3     | ✅ Completed |
+| Q4  | Question 4     | ✅ Completed |
+| Q5  | Question 5     | ✅ Completed |
+| Q6  | Question 6     | ✅ Completed |
+| Q7  | Question 7     | ✅ Completed |
+| Q8  | Question 8     | ✅ Completed |
+| Q9  | Coming soon... | ⏳           |
 
 ---
 
@@ -36,98 +37,106 @@ Q1.py
 Q2.py
 Q3.py
 Q4.py
-Q5.py
-Q6.py
-Q7.py
 ...
 Q100.py
 ```
 
-The goal is to keep every problem separate so I can look back and see how my programming and problem-solving skills improve over time.
+This keeps the challenge organized and makes it easy to track progress over the full 100 days.
 
 ---
 
 ## 🧠 Concepts I'm Practicing
 
-Throughout the 100 days, I will gradually work with:
+Throughout the challenge, I'll gradually work with:
 
-* Variables & Data Types
-* Input & Output
-* Conditional Statements
+* Variables & data types
+* Input & output
+* Conditional statements
 * Loops
 * Functions
+* Lists
+* Tuples
+* Dictionaries
+* Sets
 * Strings
-* Lists & Tuples
-* Dictionaries & Sets
-* Problem-Solving Patterns
+* Problem-solving patterns
 * Object-Oriented Programming
 * Data Structures
 * Algorithms
-* And eventually more advanced Python concepts
+
+The difficulty will increase as my Python skills improve.
 
 ---
 
-## 📜 Challenge Rules
+## 📜 My Rules
 
-1. 🗓️ Solve **one question every day**
-2. 🧠 Try to solve the problem independently first
-3. 🚫 Don't blindly copy solutions
-4. 💻 Keep each question in its own file
-5. 📊 Track progress honestly
-6. 🔍 Understand mistakes instead of just fixing them
-7. 🚀 Keep progressing even when the questions become harder
-
----
-
-## 🔄 My Approach
-
-For every question, I try to follow:
-
-**Understand → Think → Attempt → Debug → Learn → Move On**
-
-The goal isn't just to finish 100 questions.
-
-The goal is to become better at **thinking like a programmer**.
+1. **One question every day**
+2. Attempt the problem independently first
+3. Understand the logic instead of copying solutions
+4. Write the solution myself
+5. Debug my own mistakes
+6. Learn from every problem
+7. Track my progress honestly
+8. Keep going even when the questions become difficult
 
 ---
 
-## 🎯 Current Status
+## 🔥 My Approach
 
-**Day 7 / 100**
+```text
+Understand
+    ↓
+Think
+    ↓
+Attempt
+    ↓
+Debug
+    ↓
+Learn
+    ↓
+Move on
+```
 
-### Completed so far:
+The objective is not to write perfect code immediately.
 
-* Variables
-* Basic input/output
-* Conditional statements
-* Loops
-* Running totals
-* Swapping values using a temporary variable
-* Basic problem-solving
+The objective is to **improve my problem-solving ability one question at a time.**
 
 ---
 
-## 🚀 Why I'm Doing This
+## 📈 Current Status
 
-I'm using this challenge as a foundation for my larger learning journey:
+### Day 8 / 100 ✅
 
-**Python → OOP → DSA → AI/ML → Software Engineering**
+**8 questions completed.**
 
-I started this challenge to build consistency and strengthen my fundamentals before moving into more difficult programming and DSA problems.
+Still 92 to go.
+
+This challenge is part of my larger journey:
+
+```text
+Python
+   ↓
+OOP
+   ↓
+DSA
+   ↓
+AI / ML
+   ↓
+Software Engineering
+```
 
 ---
 
 ## 👨‍💻 About Me
 
 **Manraj Singh**
-BCA AI&ML Student @ LPU
+
+BCA — Artificial Intelligence & Machine Learning @ LPU
 
 GitHub: **Mann-1711**
 
 ---
 
-## 🔥 Challenge Progress
+> **8 / 100 — Keep Going.**
 
-> **7 / 100 — Keep Going.**
-
-**One question. One day. One step forward. 🐍**
+> One question. One day. One step forward. 🐍
