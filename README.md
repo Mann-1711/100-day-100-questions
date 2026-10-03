@@ -1,30 +1,33 @@
 # 🚀 100 Days, 100 Questions
 
-A **100-day Python challenge** focused on building problem-solving skills, programming logic, consistency, and confidence through daily practice.
+A 100-day Python challenge focused on building **problem-solving skills, programming logic, consistency, and confidence** through daily practice.
 
 ## 🎯 Goal
 
 Solve **100 Python questions in 100 days** — one question every day.
 
-The goal isn't just to finish 100 questions. It's to become better at **thinking like a programmer**.
+The goal isn't just to finish 100 questions, but to become better at **thinking, breaking problems down, writing logic, debugging, and solving problems independently.**
 
 ---
 
-## 📊 Progress
+## 📈 Progress
 
-**8 / 100 completed**
+**9 / 100 Questions Completed**
 
-| Day | Question       | Status      |
-| --- | -------------- | ----------- |
-| Q1  | Question 1     | ✅ Completed |
-| Q2  | Question 2     | ✅ Completed |
-| Q3  | Question 3     | ✅ Completed |
-| Q4  | Question 4     | ✅ Completed |
-| Q5  | Question 5     | ✅ Completed |
-| Q6  | Question 6     | ✅ Completed |
-| Q7  | Question 7     | ✅ Completed |
-| Q8  | Question 8     | ✅ Completed |
-| Q9  | Coming soon... | ⏳           |
+| Day  | Status         |
+| ---- | -------------- |
+| Q1   | ✅ Completed    |
+| Q2   | ✅ Completed    |
+| Q3   | ✅ Completed    |
+| Q4   | ✅ Completed    |
+| Q5   | ✅ Completed    |
+| Q6   | ✅ Completed    |
+| Q7   | ✅ Completed    |
+| Q8   | ✅ Completed    |
+| Q9   | ✅ Completed    |
+| Q10  | 🔜 Coming soon |
+| ...  | 🔜             |
+| Q100 | 🔜             |
 
 ---
 
@@ -41,43 +44,41 @@ Q4.py
 Q100.py
 ```
 
-This keeps the challenge organized and makes it easy to track progress over the full 100 days.
+Every file represents one day of practice and one step forward in my programming journey.
 
 ---
 
-## 🧠 Concepts I'm Practicing
+## 🧠 Concepts I'm Building
 
 Throughout the challenge, I'll gradually work with:
 
-* Variables & data types
-* Input & output
-* Conditional statements
+* Variables & Data Types
+* Input & Output
+* Conditional Statements
 * Loops
 * Functions
-* Lists
-* Tuples
-* Dictionaries
-* Sets
+* Recursion
+* Lists & Tuples
+* Dictionaries & Sets
 * Strings
-* Problem-solving patterns
+* Problem-Solving Patterns
 * Object-Oriented Programming
 * Data Structures
 * Algorithms
 
-The difficulty will increase as my Python skills improve.
+The difficulty will increase as my understanding improves.
 
 ---
 
-## 📜 My Rules
+## 📜 Challenge Rules
 
-1. **One question every day**
-2. Attempt the problem independently first
-3. Understand the logic instead of copying solutions
-4. Write the solution myself
-5. Debug my own mistakes
-6. Learn from every problem
-7. Track my progress honestly
-8. Keep going even when the questions become difficult
+1. Solve **one question every day**.
+2. Try to solve the problem independently first.
+3. Focus on understanding the logic instead of copying solutions.
+4. Keep each question in its own file.
+5. Track progress honestly.
+6. Learn from mistakes and debugging.
+7. Keep improving rather than chasing perfection.
 
 ---
 
@@ -94,24 +95,16 @@ Debug
     ↓
 Learn
     ↓
-Move on
+Move On
 ```
 
-The objective is not to write perfect code immediately.
-
-The objective is to **improve my problem-solving ability one question at a time.**
+The goal is to develop **problem-solving ability**, not just Python syntax.
 
 ---
 
-## 📈 Current Status
+## 🚀 Why I'm Doing This
 
-### Day 8 / 100 ✅
-
-**8 questions completed.**
-
-Still 92 to go.
-
-This challenge is part of my larger journey:
+This challenge is part of my larger programming journey:
 
 ```text
 Python
@@ -125,18 +118,28 @@ AI / ML
 Software Engineering
 ```
 
+Each question is a small step toward becoming a stronger programmer.
+
+---
+
+## 📊 Current Status
+
+**Day 9 / 100**
+
+9 questions completed.
+91 questions remaining.
+
+> **9 / 100 — Keep Going.**
+
+One question. One day. One step forward. 🐍
+
 ---
 
 ## 👨‍💻 About Me
 
 **Manraj Singh**
-
-BCA — Artificial Intelligence & Machine Learning @ LPU
+BCA AI&ML Student @ LPU
 
 GitHub: **Mann-1711**
 
----
-
-> **8 / 100 — Keep Going.**
-
-> One question. One day. One step forward. 🐍
+This repository documents my progress as I learn programming from the fundamentals and gradually move toward **DSA, AI/ML, and software engineering**.
