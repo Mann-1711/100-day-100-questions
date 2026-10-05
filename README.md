@@ -1,142 +1,162 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day Python challenge focused on building my problem-solving skills, programming logic, consistency, and confidence.
+A 100-day Python challenge focused on building **problem-solving skills, programming logic, consistency, and confidence**.
 
 The goal is simple:
 
 > **Solve 1 Python question every day for 100 days.**
 
-This repository documents my progress from beginner-level Python problems toward stronger programming fundamentals and eventually OOP, DSA, AI/ML, and Software Engineering.
+---
+
+## 📊 Progress
+
+**11 / 100 Days Completed** ✅
+
+* ✅ Q1
+* ✅ Q2
+* ✅ Q3
+* ✅ Q4
+* ✅ Q5
+* ✅ Q6
+* ✅ Q7
+* ✅ Q8
+* ✅ Q9
+* ✅ Q10
+* ✅ Q11
+* ⏳ Q12 — Coming Soon
 
 ---
 
-## 📈 Progress
+## 🎯 Goal
 
-**10 / 100 Questions Completed**
+This challenge is designed to strengthen my Python fundamentals and problem-solving ability before moving deeper into:
 
-| Day | Question                                | Status      |
-| --- | --------------------------------------- | ----------- |
-| Q1  | Python Problem 1                        | ✅ Completed |
-| Q2  | Python Problem 2                        | ✅ Completed |
-| Q3  | Python Problem 3                        | ✅ Completed |
-| Q4  | Python Problem 4                        | ✅ Completed |
-| Q5  | Python Problem 5                        | ✅ Completed |
-| Q6  | Swap two numbers using a third variable | ✅ Completed |
-| Q7  | Python Problem 7                        | ✅ Completed |
-| Q8  | Python Problem 8                        | ✅ Completed |
-| Q9  | Python Problem 9                        | ✅ Completed |
-| Q10 | Python Problem 10                       | ✅ Completed |
-| Q11 | Coming soon...                          | ⏳           |
+**Python → OOP → DSA → AI/ML → Software Engineering**
+
+The focus isn't just on solving questions, but on learning how to **think through problems independently**.
 
 ---
 
 ## 📂 Repository Structure
 
-Each question has its own Python file:
+Each day has its own Python file:
 
 ```text
 Q1.py
 Q2.py
 Q3.py
 Q4.py
-Q5.py
-Q6.py
-Q7.py
-Q8.py
-Q9.py
-Q10.py
+...
+Q11.py
 ...
 Q100.py
 ```
 
-The goal is to keep every problem separate so I can look back and see how my programming and problem-solving skills improve over time.
+Every question represents one day of the challenge.
 
 ---
 
-## 🧠 Concepts I'm Practicing
+## 🧠 Concepts Covered
 
-Throughout the 100 days, I will gradually work with:
+As the challenge progresses, it will cover concepts such as:
 
 * Variables & Data Types
 * Input & Output
 * Conditional Statements
 * Loops
-* Functions
 * Strings
 * Lists & Tuples
 * Dictionaries & Sets
+* Functions
+* Recursion
 * Problem-Solving Patterns
 * Object-Oriented Programming
 * Data Structures
 * Algorithms
-* And eventually more advanced Python concepts
+
+The difficulty will gradually increase as my understanding improves.
 
 ---
 
 ## 📜 Challenge Rules
 
-1. 🗓️ Solve one question every day
-2. 🧠 Try to solve the problem independently first
-3. 🚫 Don't blindly copy solutions
-4. 💻 Keep each question in its own file
-5. 📊 Track progress honestly
-6. 🔍 Understand mistakes instead of just fixing them
-7. 🚀 Keep progressing even when the questions become harder
+1. Solve **one question every day**.
+2. Attempt the problem independently before looking for help.
+3. Understand the logic instead of copying solutions.
+4. Keep each solution in its own file.
+5. Track progress honestly.
+6. Learn from mistakes and debugging.
+7. Keep improving rather than chasing perfection.
+8. Stay consistent for all 100 days.
 
 ---
 
-## 🔄 My Approach
+## 🔥 My Approach
 
-For every question, I try to follow:
+```text
+Understand
+    ↓
+Think
+    ↓
+Attempt
+    ↓
+Debug
+    ↓
+Learn
+    ↓
+Move On
+```
 
-**Understand → Think → Attempt → Debug → Learn → Move On**
-
-The goal isn't just to finish 100 questions.
-
-The goal is to become better at **thinking like a programmer.**
+The goal is to develop **problem-solving ability**, not just collect solved questions.
 
 ---
 
-## 🎯 Current Status
+## 📈 Current Status
 
-### **Day 10 / 100**
+**Day 11 / 100 — Completed** ✅
 
-### Completed so far:
+11 days down.
 
-* Variables & Data Types
-* Basic Input/Output
-* Conditional Statements
-* Loops
-* Running totals
-* Swapping values using a temporary variable
-* Basic problem-solving
-* Functions & logical problem solving
-* Building programs independently
-* Debugging and improving mistakes
+89 days to go.
 
 ---
 
 ## 🚀 Why I'm Doing This
 
-I'm using this challenge as a foundation for my larger learning journey:
+I'm using this challenge as the foundation for my long-term programming journey.
 
-**Python → OOP → DSA → AI/ML → Software Engineering**
+My roadmap:
 
-I started this challenge to build consistency, strengthen my fundamentals, and develop the ability to solve problems independently before moving into more difficult programming and DSA problems.
+**Python Fundamentals**
+↓
+**Functions & Problem Solving**
+↓
+**OOP**
+↓
+**DSA**
+↓
+**AI/ML**
+↓
+**Software Engineering**
 
 ---
 
 ## 👨‍💻 About Me
 
 **Manraj Singh**
-BCA AI&ML Student @ LPU
 
-GitHub: **Mann-1711**
+BCA Artificial Intelligence & Machine Learning student at **Lovely Professional University (LPU)**.
+
+Currently focusing on building strong programming fundamentals through consistent practice and projects.
+
+**GitHub:** [Mann-1711](https://github.com/Mann-1711)
 
 ---
 
-## 🔥 Challenge Progress
+## ⭐ Keep Going
 
-> **10 / 100 — Keep Going.**
+**11 / 100 — The journey continues.**
 
-**One question. One day. One step forward. 🐍**
+> *Consistency beats intensity.*
+
+**One question. Every day. 100 days.**
