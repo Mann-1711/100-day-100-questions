@@ -1,45 +1,57 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day Python challenge focused on building **problem-solving skills, programming logic, consistency, and confidence**.
-
-The goal is simple:
-
-> **Solve 1 Python question every day for 100 days.**
-
----
-
-## 📊 Progress
-
-**11 / 100 Days Completed** ✅
-
-* ✅ Q1
-* ✅ Q2
-* ✅ Q3
-* ✅ Q4
-* ✅ Q5
-* ✅ Q6
-* ✅ Q7
-* ✅ Q8
-* ✅ Q9
-* ✅ Q10
-* ✅ Q11
-* ⏳ Q12 — Coming Soon
-
----
+A 100-day Python challenge focused on building problem-solving skills, programming logic, consistency, and confidence through daily practice.
 
 ## 🎯 Goal
 
-This challenge is designed to strengthen my Python fundamentals and problem-solving ability before moving deeper into:
+Solve 100 Python questions in 100 days — one question every day.
 
-**Python → OOP → DSA → AI/ML → Software Engineering**
+The goal isn't just to finish 100 questions, but to become better at thinking, breaking problems down, writing logic, debugging, and solving problems independently.
 
-The focus isn't just on solving questions, but on learning how to **think through problems independently**.
+---
+
+## 📈 Progress
+
+**12 / 100 Questions Completed**
+
+| Day  | Status      |
+| ---- | ----------- |
+| Q1   | ✅ Completed |
+| Q2   | ✅ Completed |
+| Q3   | ✅ Completed |
+| Q4   | ✅ Completed |
+| Q5   | ✅ Completed |
+| Q6   | ✅ Completed |
+| Q7   | ✅ Completed |
+| Q8   | ✅ Completed |
+| Q9   | ✅ Completed |
+| Q10  | ✅ Completed |
+| Q11  | ✅ Completed |
+| Q12  | ✅ Completed |
+| ...  | 🔜          |
+| Q100 | 🔜          |
+
+### 🧩 Latest Challenge
+
+**Q12 — Descending Number Pattern**
+
+For `n = 5`, print:
+
+```text
+5
+54
+543
+5432
+54321
+```
+
+This question focuses on understanding **nested loops**, controlling the starting and ending values of each row, and building patterns through logic rather than memorizing code.
 
 ---
 
 ## 📂 Repository Structure
 
-Each day has its own Python file:
+Each question has its own Python file:
 
 ```text
 Q1.py
@@ -47,47 +59,45 @@ Q2.py
 Q3.py
 Q4.py
 ...
-Q11.py
-...
 Q100.py
 ```
 
-Every question represents one day of the challenge.
+Every file represents one day of practice and one step forward in my programming journey.
 
 ---
 
-## 🧠 Concepts Covered
+## 🧠 Concepts I'm Building
 
-As the challenge progresses, it will cover concepts such as:
+Throughout the challenge, I'll gradually work with:
 
 * Variables & Data Types
 * Input & Output
 * Conditional Statements
 * Loops
-* Strings
-* Lists & Tuples
-* Dictionaries & Sets
+* Nested Loops
 * Functions
 * Recursion
+* Lists & Tuples
+* Dictionaries & Sets
+* Strings
 * Problem-Solving Patterns
 * Object-Oriented Programming
 * Data Structures
 * Algorithms
 
-The difficulty will gradually increase as my understanding improves.
+The difficulty will increase as my understanding improves.
 
 ---
 
 ## 📜 Challenge Rules
 
-1. Solve **one question every day**.
-2. Attempt the problem independently before looking for help.
-3. Understand the logic instead of copying solutions.
-4. Keep each solution in its own file.
+1. Solve one question every day.
+2. Try to solve the problem independently first.
+3. Focus on understanding the logic instead of copying solutions.
+4. Keep each question in its own file.
 5. Track progress honestly.
 6. Learn from mistakes and debugging.
 7. Keep improving rather than chasing perfection.
-8. Stay consistent for all 100 days.
 
 ---
 
@@ -107,56 +117,47 @@ Learn
 Move On
 ```
 
-The goal is to develop **problem-solving ability**, not just collect solved questions.
-
----
-
-## 📈 Current Status
-
-**Day 11 / 100 — Completed** ✅
-
-11 days down.
-
-89 days to go.
+The goal is to develop problem-solving ability, not just Python syntax.
 
 ---
 
 ## 🚀 Why I'm Doing This
 
-I'm using this challenge as the foundation for my long-term programming journey.
+This challenge is part of my larger programming journey:
 
-My roadmap:
+```text
+Python
+   ↓
+OOP
+   ↓
+DSA
+   ↓
+AI / ML
+   ↓
+Software Engineering
+```
 
-**Python Fundamentals**
-↓
-**Functions & Problem Solving**
-↓
-**OOP**
-↓
-**DSA**
-↓
-**AI/ML**
-↓
-**Software Engineering**
+Each question is a small step toward becoming a stronger programmer.
+
+---
+
+## 📊 Current Status
+
+**Day 12 / 100**
+
+12 questions completed. 88 questions remaining.
+
+> **12 / 100 — Keep Going.**
+
+One question. One day. One step forward. 🐍
 
 ---
 
 ## 👨‍💻 About Me
 
 **Manraj Singh**
+BCA AI&ML Student @ LPU
 
-BCA Artificial Intelligence & Machine Learning student at **Lovely Professional University (LPU)**.
+GitHub: **Mann-1711**
 
-Currently focusing on building strong programming fundamentals through consistent practice and projects.
-
-**GitHub:** [Mann-1711](https://github.com/Mann-1711)
-
----
-
-## ⭐ Keep Going
-
-**11 / 100 — The journey continues.**
-
-> *Consistency beats intensity.*
-
-**One question. Every day. 100 days.**
+This repository documents my progress as I learn programming from the fundamentals and gradually move toward DSA, AI/ML, and software engineering.
