@@ -2,6 +2,10 @@
 
 A 100-day Python challenge focused on building problem-solving skills, programming logic, consistency, and confidence through daily practice.
 
+> Learn → Build → Break → Debug → Improve → Repeat
+
+---
+
 ## 🎯 Goal
 
 Solve 100 Python questions in 100 days — one question every day.
@@ -12,7 +16,7 @@ The goal isn't just to finish 100 questions, but to become better at thinking, b
 
 ## 📈 Progress
 
-**12 / 100 Questions Completed**
+**13 / 100 Questions Completed**
 
 | Day  | Status      |
 | ---- | ----------- |
@@ -28,24 +32,33 @@ The goal isn't just to finish 100 questions, but to become better at thinking, b
 | Q10  | ✅ Completed |
 | Q11  | ✅ Completed |
 | Q12  | ✅ Completed |
+| Q13  | ✅ Completed |
 | ...  | 🔜          |
 | Q100 | 🔜          |
 
-### 🧩 Latest Challenge
+---
 
-**Q12 — Descending Number Pattern**
+## 🧩 Latest Challenge
 
-For `n = 5`, print:
+### Q13 — Largest of Three Numbers
 
-```text
-5
-54
-543
-5432
-54321
-```
+Write a program to read three numbers and find the largest among them.
 
-This question focuses on understanding **nested loops**, controlling the starting and ending values of each row, and building patterns through logic rather than memorizing code.
+This problem focused on:
+
+* Comparison operators
+* `if` / `elif`
+* Boolean expressions
+* Combining conditions using `and`
+* Thinking about edge cases
+
+The main logic checks whether each number is strictly greater than the other two.
+
+An important observation from solving the problem was that separate equality cases aren't necessary when two numbers are equal but the third is larger. The first three comparisons already identify the larger number.
+
+The only additional case that needs to be considered is when **all three numbers are equal**.
+
+This was a useful exercise in understanding that solving a problem isn't just about writing conditions — it's about checking whether the conditions cover all possible cases.
 
 ---
 
@@ -73,6 +86,8 @@ Throughout the challenge, I'll gradually work with:
 * Variables & Data Types
 * Input & Output
 * Conditional Statements
+* Comparison Operators
+* Boolean Logic
 * Loops
 * Nested Loops
 * Functions
@@ -97,7 +112,8 @@ The difficulty will increase as my understanding improves.
 4. Keep each question in its own file.
 5. Track progress honestly.
 6. Learn from mistakes and debugging.
-7. Keep improving rather than chasing perfection.
+7. Test edge cases instead of assuming the first solution works.
+8. Keep improving rather than chasing perfection.
 
 ---
 
@@ -110,9 +126,13 @@ Think
     ↓
 Attempt
     ↓
+Get Stuck
+    ↓
 Debug
     ↓
-Learn
+Understand the Mistake
+    ↓
+Improve
     ↓
 Move On
 ```
@@ -143,11 +163,11 @@ Each question is a small step toward becoming a stronger programmer.
 
 ## 📊 Current Status
 
-**Day 12 / 100**
+**Day 13 / 100**
 
-12 questions completed. 88 questions remaining.
+13 questions completed. 87 questions remaining.
 
-> **12 / 100 — Keep Going.**
+> **13 / 100 — Keep Going.**
 
 One question. One day. One step forward. 🐍
 
@@ -161,3 +181,6 @@ BCA AI&ML Student @ LPU
 GitHub: **Mann-1711**
 
 This repository documents my progress as I learn programming from the fundamentals and gradually move toward DSA, AI/ML, and software engineering.
+
+⭐ The goal isn't to look like an expert.
+⭐ The goal is to become one.
