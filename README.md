@@ -1,186 +1,177 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day Python challenge focused on building problem-solving skills, programming logic, consistency, and confidence through daily practice.
+A 100-day coding challenge where I solve **one programming question every day** to build consistency, strengthen my problem-solving skills, and improve my Python fundamentals.
 
-> Learn → Build → Break → Debug → Improve → Repeat
-
----
-
-## 🎯 Goal
-
-Solve 100 Python questions in 100 days — one question every day.
-
-The goal isn't just to finish 100 questions, but to become better at thinking, breaking problems down, writing logic, debugging, and solving problems independently.
+This repository documents my progress from beginner-level problems toward more structured and challenging programming problems.
 
 ---
 
-## 📈 Progress
+## 📊 Progress
 
-**13 / 100 Questions Completed**
+**Current Progress: 14 / 100**
 
-| Day  | Status      |
-| ---- | ----------- |
-| Q1   | ✅ Completed |
-| Q2   | ✅ Completed |
-| Q3   | ✅ Completed |
-| Q4   | ✅ Completed |
-| Q5   | ✅ Completed |
-| Q6   | ✅ Completed |
-| Q7   | ✅ Completed |
-| Q8   | ✅ Completed |
-| Q9   | ✅ Completed |
-| Q10  | ✅ Completed |
-| Q11  | ✅ Completed |
-| Q12  | ✅ Completed |
-| Q13  | ✅ Completed |
-| ...  | 🔜          |
-| Q100 | 🔜          |
+🔥 **14% Completed**
 
----
-
-## 🧩 Latest Challenge
-
-### Q13 — Largest of Three Numbers
-
-Write a program to read three numbers and find the largest among them.
-
-This problem focused on:
-
-* Comparison operators
-* `if` / `elif`
-* Boolean expressions
-* Combining conditions using `and`
-* Thinking about edge cases
-
-The main logic checks whether each number is strictly greater than the other two.
-
-An important observation from solving the problem was that separate equality cases aren't necessary when two numbers are equal but the third is larger. The first three comparisons already identify the larger number.
-
-The only additional case that needs to be considered is when **all three numbers are equal**.
-
-This was a useful exercise in understanding that solving a problem isn't just about writing conditions — it's about checking whether the conditions cover all possible cases.
+| Day      | Question  | Status |
+| -------- | --------- | ------ |
+| Q1       | Completed | ✅      |
+| Q2       | Completed | ✅      |
+| Q3       | Completed | ✅      |
+| Q4       | Completed | ✅      |
+| Q5       | Completed | ✅      |
+| Q6       | Completed | ✅      |
+| Q7       | Completed | ✅      |
+| Q8       | Completed | ✅      |
+| Q9       | Completed | ✅      |
+| Q10      | Completed | ✅      |
+| Q11      | Completed | ✅      |
+| Q12      | Completed | ✅      |
+| Q13      | Completed | ✅      |
+| Q14      | Completed | ✅      |
+| Q15–Q100 | Upcoming  | ⏳      |
 
 ---
 
-## 📂 Repository Structure
-
-Each question has its own Python file:
+## 📁 Repository Structure
 
 ```text
-Q1.py
-Q2.py
-Q3.py
-Q4.py
-...
-Q100.py
+100-day-100-questions/
+│
+├── Q1.py
+├── Q2.py
+├── Q3.py
+├── Q4.py
+├── ...
+├── Q14.py
+├── ...
+├── Q100.py
+│
+└── README.md
 ```
 
-Every file represents one day of practice and one step forward in my programming journey.
+Each question is stored separately so I can track my progress and look back at how my problem-solving approach improves over time.
 
 ---
 
 ## 🧠 Concepts I'm Building
 
-Throughout the challenge, I'll gradually work with:
+Through this challenge, I'm gradually strengthening:
 
-* Variables & Data Types
-* Input & Output
-* Conditional Statements
-* Comparison Operators
-* Boolean Logic
+* Variables and data types
+* Input and output
+* Conditional statements
+* Comparison operators
+* Boolean logic
+* `if / elif / else`
 * Loops
-* Nested Loops
+* Nested loops
+* Lists
+* Tuples
+* Dictionaries
+* Sets
 * Functions
 * Recursion
-* Lists & Tuples
-* Dictionaries & Sets
-* Strings
-* Problem-Solving Patterns
-* Object-Oriented Programming
-* Data Structures
-* Algorithms
+* Problem decomposition
+* Edge-case thinking
+* Debugging
+* Logical problem solving
 
-The difficulty will increase as my understanding improves.
+As the challenge progresses, the difficulty will gradually increase.
 
 ---
 
-## 📜 Challenge Rules
+## 🎯 Rules
 
-1. Solve one question every day.
-2. Try to solve the problem independently first.
-3. Focus on understanding the logic instead of copying solutions.
-4. Keep each question in its own file.
-5. Track progress honestly.
-6. Learn from mistakes and debugging.
-7. Test edge cases instead of assuming the first solution works.
-8. Keep improving rather than chasing perfection.
+### 1. One question every day
+
+The main goal is consistency rather than solving the hardest possible problem.
+
+### 2. Understand before moving on
+
+I don't want to blindly copy solutions. The goal is to understand **why** my solution works.
+
+### 3. Try independently
+
+I attempt the problem myself before looking for help.
+
+### 4. Learn from mistakes
+
+Errors and failed approaches are part of the process.
+
+### 5. Keep improving
+
+The goal isn't just to complete 100 questions — it's to become noticeably better at solving problems by Question 100.
 
 ---
 
-## 🔥 My Approach
+## 📈 Growth Plan
+
+The difficulty of the problems will gradually increase as my fundamentals improve.
 
 ```text
-Understand
-    ↓
-Think
-    ↓
-Attempt
-    ↓
-Get Stuck
-    ↓
-Debug
-    ↓
-Understand the Mistake
-    ↓
-Improve
-    ↓
-Move On
+Basic Syntax
+     ↓
+Conditionals
+     ↓
+Loops
+     ↓
+Lists / Dictionaries / Sets
+     ↓
+Functions
+     ↓
+Recursion
+     ↓
+Problem-Solving Patterns
+     ↓
+Data Structures & Algorithms
 ```
-
-The goal is to develop problem-solving ability, not just Python syntax.
 
 ---
 
-## 🚀 Why I'm Doing This
+## 🔥 Challenge
 
-This challenge is part of my larger programming journey:
+**100 Days.
+100 Questions.
+1% Better Every Day.**
 
-```text
-Python
-   ↓
-OOP
-   ↓
-DSA
-   ↓
-AI / ML
-   ↓
-Software Engineering
-```
-
-Each question is a small step toward becoming a stronger programmer.
+The goal is to build the habit of sitting down, thinking through a problem, attempting a solution, debugging it, and learning from the process.
 
 ---
 
-## 📊 Current Status
+## 📌 Current Status
 
-**Day 13 / 100**
+**Day 14 / 100 ✅**
 
-13 questions completed. 87 questions remaining.
+14 questions completed.
 
-> **13 / 100 — Keep Going.**
-
-One question. One day. One step forward. 🐍
+The challenge is still in its early stage, but the focus is on building strong programming fundamentals before moving into more advanced problem solving and DSA.
 
 ---
 
 ## 👨‍💻 About Me
 
-**Manraj Singh**
-BCA AI&ML Student @ LPU
+I'm a **BCA Artificial Intelligence & Machine Learning student at LPU**, currently building my programming fundamentals with Python and gradually expanding into other technologies.
 
-GitHub: **Mann-1711**
+I'm using this challenge as one of the ways to develop consistency, logical thinking, and problem-solving ability while documenting my journey publicly.
 
-This repository documents my progress as I learn programming from the fundamentals and gradually move toward DSA, AI/ML, and software engineering.
+### Current Focus
 
-⭐ The goal isn't to look like an expert.
-⭐ The goal is to become one.
+* 🐍 Python
+* 💻 C
+* 🗄️ SQL
+* 🍃 MongoDB
+* 🔧 Git & GitHub
+* 🧠 Problem Solving
+* 📚 Building Programming Fundamentals
+
+---
+
+## 🚀 Road Ahead
+
+**Q14 → Q100**
+
+The objective is simple:
+
+> **Keep solving. Keep learning. Keep improving.**
+
+One question at a time.
