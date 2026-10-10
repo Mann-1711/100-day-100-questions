@@ -11,6 +11,8 @@ A 100-day coding challenge where I solve one programming question every day to b
 ---
 
 ## 📁 Repository Structure
+
+```text
 100-day-100-questions/
 ├── Q1.py
 ├── Q2.py
@@ -22,6 +24,9 @@ A 100-day coding challenge where I solve one programming question every day to b
 ├── ...
 ├── Q100.py
 └── README.md
+```
+
+---
 
 ## 📝 Daily Progress
 
@@ -65,6 +70,7 @@ A 100-day coding challenge where I solve one programming question every day to b
 
 ## 📈 Learning Roadmap
 
+```text
 Basic Syntax
      ↓
 Conditional Statements
@@ -81,10 +87,14 @@ Problem-Solving Patterns
      ↓
 Data Structures & Algorithms
 ```
-👨‍💻 About Me
+
+---
+
+## 👨‍💻 About Me
 
 I'm a BCA Artificial Intelligence & Machine Learning student at LPU, currently building my programming fundamentals and documenting my coding journey through this challenge.
-Current Focus
+
+### Current Focus
 
 - 🐍 Python
 - 💻 C Programming
@@ -92,6 +102,9 @@ Current Focus
 - 🍃 MongoDB
 - 🔧 Git & GitHub
 - 🧠 Problem-Solving Skills
+
+---
+
 ## 🔥 My Goal
 
 **100 Days. 100 Questions. Continuous Improvement.**
