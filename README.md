@@ -1,18 +1,17 @@
-🚀 100 Days, 100 Questions
-A 100-day coding challenge where I solve one programming question every
-day to build consistency, strengthen my problem-solving skills, and
-improve my Python fundamentals.
-This repository documents my progress from beginner-level problems
-toward more structured and challenging programming problems.
-📊 Progress
-Current Progress: 16 / 100
-🔥 16% Completed
-  Question    Status
-  Q1--Q16     Completed ✅
-  Q17--Q100   Upcoming ⏳
-📁 Repository Structure
+# 🚀 100 Days, 100 Questions
+
+A 100-day coding challenge where I solve one programming question every day to build consistency, strengthen my problem-solving skills, and improve my Python fundamentals.
+
+## 📊 Progress
+
+**Current Progress: 16/100 Questions Completed** 🔥
+
+**16% Completed**
+
+---
+
+## 📁 Repository Structure
 100-day-100-questions/
-│
 ├── Q1.py
 ├── Q2.py
 ├── Q3.py
@@ -22,62 +21,57 @@ Current Progress: 16 / 100
 ├── Q16.py
 ├── ...
 ├── Q100.py
-│
 └── README.md
-Each question is stored separately so I can track my progress and look
-back at how my problem-solving approach improves over time.
-📝 Latest Question
-Q16 --- Vowel or Consonant
-Problem: Read a character and check whether it is a vowel or a
-consonant.
-Concepts practiced: - Taking character input - Converting input to
-lowercase with .lower() - Using if / else - Checking membership with
-in
-🧠 Concepts I'm Building
-Through this challenge, I'm gradually strengthening:
+
+## 📝 Daily Progress
+
+### Q16 — Vowel or Consonant
+
+**Problem:** Write a program to read a character and check whether it is a vowel or a consonant.
+
+**Concepts Learned:**
+- Taking input using `input()`
+- Converting characters to lowercase using `.lower()`
+- Conditional statements (`if-else`)
+- Membership testing using `in`
+- Logical problem-solving
+
+---
+
+## 🧠 Concepts I'm Learning
+
 - Variables and data types
 - Input and output
 - Conditional statements
 - Comparison operators
 - Boolean logic
-- if / elif / else
-- Loops
-- Nested loops
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-- Functions
+- Loops and nested loops
+- Lists, tuples, dictionaries, and sets
+- Functions and parameters
 - Recursion
-- Problem decomposition
-- Edge-case thinking
-- Debugging
-- Logical problem solving
-As the challenge progresses, the difficulty will gradually increase.
-🎯 Rules
-1. One question every day
-The main goal is consistency rather than solving the hardest possible
-problem.
-2. Understand before moving on
-I don't want to blindly copy solutions. The goal is to understand why my
-solution works.
-3. Try independently
-I attempt the problem myself before looking for help.
-4. Learn from mistakes
-Errors and failed approaches are part of the process.
-5. Keep improving
-The goal isn't just to complete 100 questions --- it's to become
-noticeably better at solving problems by Question 100.
-📈 Growth Plan
-The difficulty of the problems will gradually increase as my
-fundamentals improve.
+- Debugging and problem-solving
+
+---
+
+## 🎯 My Rules
+
+- **Consistency over perfection:** Solve one question at a time.
+- **Understand, don't copy:** Focus on understanding why the solution works.
+- **Try independently:** Attempt each problem before seeking help.
+- **Learn from mistakes:** Debug errors and improve my approach.
+- **Keep progressing:** Gradually increase the difficulty of the questions.
+
+---
+
+## 📈 Learning Roadmap
+
 Basic Syntax
      ↓
-Conditionals
+Conditional Statements
      ↓
 Loops
      ↓
-Lists / Dictionaries / Sets
+Lists, Tuples, Dictionaries & Sets
      ↓
 Functions
      ↓
@@ -86,35 +80,24 @@ Recursion
 Problem-Solving Patterns
      ↓
 Data Structures & Algorithms
-🔥 Challenge
-100 Days. 100 Questions. 1% Better Every Day.
-The goal is to build the habit of sitting down, thinking through a
-problem, attempting a solution, debugging it, and learning from the
-process.
-📌 Current Status
-Q16 / 100 ✅
-16 questions completed.
-The challenge is still in its early stage, but the focus is on building
-strong programming fundamentals before moving into more advanced problem
-solving and DSA.
+```
 👨‍💻 About Me
-I'm a BCA Artificial Intelligence & Machine Learning student at LPU,
-currently building my programming fundamentals with Python and gradually
-expanding into other technologies.
-I'm using this challenge as one of the ways to develop consistency,
-logical thinking, and problem-solving ability while documenting my
-journey publicly.
+
+I'm a BCA Artificial Intelligence & Machine Learning student at LPU, currently building my programming fundamentals and documenting my coding journey through this challenge.
 Current Focus
+
 - 🐍 Python
-- 💻 C
+- 💻 C Programming
 - 🗄️ SQL
 - 🍃 MongoDB
 - 🔧 Git & GitHub
-- 🧠 Problem Solving
-- 📚 Building Programming Fundamentals
-🚀 Road Ahead
-Q16 → Q100
-The objective is simple:
-Keep solving. Keep learning. Keep improving.
+- 🧠 Problem-Solving Skills
+## 🔥 My Goal
 
-One question at a time.
+**100 Days. 100 Questions. Continuous Improvement.**
+
+The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
+
+**Current Status: Q16/100 ✅**
+
+On to Q17! 🚀
