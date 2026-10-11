@@ -1,12 +1,28 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day coding challenge where I solve one programming question every day to build consistency, strengthen my problem-solving skills, and improve my Python fundamentals.
+A 100-day coding challenge where I solve one programming question every day to strengthen my Python fundamentals, improve logical thinking, and become a better problem solver.
 
 ## 📊 Progress
 
-**Current Progress: 16/100 Questions Completed** 🔥
+**17/100 Questions Completed** 🔥
 
-**16% Completed**
+**17% Completed**
+
+---
+
+## 📝 Latest Question
+
+### Q17 — Alphabet, Digit, or Special Symbol
+
+**Problem:** Write a Python program to read a character and check whether it is an alphabet, digit, or special symbol.
+
+**Concepts Practiced:**
+- Taking input using `input()`
+- Conditional statements (`if`, `elif`, `else`)
+- Character checking
+- Comparison operators
+- Python built-in string methods
+- Logical problem-solving
 
 ---
 
@@ -18,28 +34,13 @@ A 100-day coding challenge where I solve one programming question every day to b
 ├── Q2.py
 ├── Q3.py
 ├── ...
-├── Q14.py
 ├── Q15.py
 ├── Q16.py
+├── Q17.py
 ├── ...
 ├── Q100.py
 └── README.md
 ```
-
----
-
-## 📝 Daily Progress
-
-### Q16 — Vowel or Consonant
-
-**Problem:** Write a program to read a character and check whether it is a vowel or a consonant.
-
-**Concepts Learned:**
-- Taking input using `input()`
-- Converting characters to lowercase using `.lower()`
-- Conditional statements (`if-else`)
-- Membership testing using `in`
-- Logical problem-solving
 
 ---
 
@@ -61,7 +62,7 @@ A 100-day coding challenge where I solve one programming question every day to b
 ## 🎯 My Rules
 
 - **Consistency over perfection:** Solve one question at a time.
-- **Understand, don't copy:** Focus on understanding why the solution works.
+- **Understand, don't copy:** Focus on understanding why a solution works.
 - **Try independently:** Attempt each problem before seeking help.
 - **Learn from mistakes:** Debug errors and improve my approach.
 - **Keep progressing:** Gradually increase the difficulty of the questions.
@@ -111,6 +112,6 @@ I'm a BCA Artificial Intelligence & Machine Learning student at LPU, currently b
 
 The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
 
-**Current Status: Q16/100 ✅**
+**Current Status: Q17/100 ✅**
 
-On to Q17! 🚀
+On to Q18! 🚀
