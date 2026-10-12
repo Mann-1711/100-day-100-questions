@@ -1,28 +1,27 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day coding challenge where I solve one programming question every day to strengthen my Python fundamentals, improve logical thinking, and become a better problem solver.
+A 100-day coding challenge to strengthen my Python fundamentals, improve logical thinking, and become a better problem solver.
 
 ## 📊 Progress
 
-**17/100 Questions Completed** 🔥
+**18/100 Questions Completed** 🔥
 
-**17% Completed**
+**18% Completed**
 
 ---
 
 ## 📝 Latest Question
 
-### Q17 — Alphabet, Digit, or Special Symbol
+### Q18 — [Add Your Question Title]
 
-**Problem:** Write a Python program to read a character and check whether it is an alphabet, digit, or special symbol.
+**Problem:** [Add the exact problem statement for Q18.]
 
 **Concepts Practiced:**
-- Taking input using `input()`
-- Conditional statements (`if`, `elif`, `else`)
-- Character checking
-- Comparison operators
-- Python built-in string methods
-- Logical problem-solving
+- Python fundamentals
+- Input and output
+- Conditional logic
+- Problem-solving
+- Debugging and testing
 
 ---
 
@@ -34,9 +33,9 @@ A 100-day coding challenge where I solve one programming question every day to s
 ├── Q2.py
 ├── Q3.py
 ├── ...
-├── Q15.py
 ├── Q16.py
 ├── Q17.py
+├── Q18.py
 ├── ...
 ├── Q100.py
 └── README.md
@@ -93,7 +92,7 @@ Data Structures & Algorithms
 
 ## 👨‍💻 About Me
 
-I'm a BCA Artificial Intelligence & Machine Learning student at LPU, currently building my programming fundamentals and documenting my coding journey through this challenge.
+I'm a BCA Artificial Intelligence & Machine Learning student at LPU, building my programming fundamentals and documenting my coding journey through this challenge.
 
 ### Current Focus
 
@@ -112,6 +111,6 @@ I'm a BCA Artificial Intelligence & Machine Learning student at LPU, currently b
 
 The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
 
-**Current Status: Q17/100 ✅**
+**Current Status: Q18/100 ✅**
 
-On to Q18! 🚀
+On to Q19! 🚀
