@@ -4,17 +4,17 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 
 ## 📊 Progress
 
-**21/100 Questions Completed** 🔥
+**22/100 Questions Completed** 🔥
 
-**21% Completed**
+**22% Completed**
 
 ---
 
 ## 📝 Latest Question
 
-### Q21 — [Add Your Question Title]
+### Q22 — [Add Your Question Title]
 
-**Problem:** [Add the exact problem statement for Q21.]
+**Problem:** [Add the exact problem statement for Q22.]
 
 **Concepts Practiced:**
 - Python fundamentals
@@ -33,10 +33,10 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 ├── Q2.py
 ├── Q3.py
 ├── ...
-├── Q18.py
 ├── Q19.py
 ├── Q20.py
 ├── Q21.py
+├── Q22.py
 ├── ...
 ├── Q100.py
 └── README.md
@@ -112,6 +112,6 @@ I'm a BCA Artificial Intelligence & Machine Learning student at LPU, building my
 
 The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
 
-**Current Status: Q21/100 ✅**
+**Current Status: Q22/100 ✅**
 
-On to Q22! 🚀
+On to Q23! 🚀
