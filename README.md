@@ -4,21 +4,23 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 
 ## 📊 Progress
 
-**23/100 Questions Completed** 🔥
+**24/100 Questions Completed** 🔥
 
-**23% Completed**
+**24% Completed**
 
 ---
 
 ## 📝 Latest Question
 
-### Q23 — [Add Your Question Title]
+### Q24 — Functions and Recursion Practice
 
-**Problem:** [Add the exact problem statement for Q23.]
+**Problem:** Practice breaking problems into smaller steps using functions and recursion, focusing on recursive calls, base cases, and independent problem-solving.
 
 **Concepts Practiced:**
-- Python fundamentals
-- Input and output
+- Python functions
+- Function parameters and arguments
+- Recursion
+- Base cases and recursive cases
 - Logical reasoning
 - Problem-solving
 - Debugging and testing
@@ -37,6 +39,7 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 ├── Q21.py
 ├── Q22.py
 ├── Q23.py
+├── Q24.py
 ├── ...
 ├── Q100.py
 └── README.md
@@ -55,6 +58,7 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 - Lists, tuples, dictionaries, and sets
 - Functions and parameters
 - Recursion
+- Base cases and recursive calls
 - Debugging and problem-solving
 
 ---
@@ -112,6 +116,6 @@ I'm a BCA Artificial Intelligence & Machine Learning student at LPU, building my
 
 The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
 
-**Current Status: Q23/100 ✅**
+**Current Status: Q24/100 ✅**
 
-On to Q24! 🚀
+On to Q25! 🚀
