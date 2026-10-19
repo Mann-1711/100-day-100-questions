@@ -4,26 +4,47 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 
 ## 📊 Progress
 
-**24/100 Questions Completed** 🔥
+**25/100 Questions Completed** 🔥
 
-**24% Completed**
+**25% Completed**
 
 ---
 
 ## 📝 Latest Question
 
-### Q24 — Functions and Recursion Practice
+### Q25 — Sum of Natural Numbers from 1 to n
 
-**Problem:** Practice breaking problems into smaller steps using functions and recursion, focusing on recursive calls, base cases, and independent problem-solving.
+**Problem:** Write a Python program to calculate the sum of all natural numbers from `1` to `n`.
+
+**Example:**
+
+```text
+Input: 5
+Output: 15
+```
 
 **Concepts Practiced:**
-- Python functions
-- Function parameters and arguments
-- Recursion
-- Base cases and recursive cases
-- Logical reasoning
-- Problem-solving
-- Debugging and testing
+- `for` loops
+- Python's `range()` function
+- Accumulator variables
+- Variable updates
+- Arithmetic operations
+- Loop tracing and debugging
+- Understanding how values change during each iteration
+
+**Approach:**
+
+1. Take an integer `n` as input.
+2. Initialize `total = 0` before the loop.
+3. Iterate from `1` through `n`, including `n`.
+4. Add each number to the running total.
+5. Print the final result after the loop.
+
+**Key Learning:** An accumulator stores a running result. It should be initialized before the loop, updated during each iteration, and printed after the loop finishes.
+
+Python's `range()` excludes its ending value, so `range(1, n + 1)` is used to include `n`.
+
+**Solution file:** [`Q25.py`](Q25.py)
 
 ---
 
@@ -40,6 +61,7 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 ├── Q22.py
 ├── Q23.py
 ├── Q24.py
+├── Q25.py
 ├── ...
 ├── Q100.py
 └── README.md
@@ -57,8 +79,8 @@ A 100-day coding challenge to strengthen my Python fundamentals, improve logical
 - Loops and nested loops
 - Lists, tuples, dictionaries, and sets
 - Functions and parameters
-- Recursion
-- Base cases and recursive calls
+- Recursion and base cases
+- Accumulator patterns
 - Debugging and problem-solving
 
 ---
@@ -114,8 +136,8 @@ I'm a BCA Artificial Intelligence & Machine Learning student at LPU, building my
 
 **100 Days. 100 Questions. Continuous Improvement.**
 
-The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, and solving problems independently.
+The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, debugging independently, and building confidence one problem at a time.
 
-**Current Status: Q24/100 ✅**
+**Current Status: Q25/100 ✅**
 
-On to Q25! 🚀
+On to Q26! 🚀
