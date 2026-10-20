@@ -1,143 +1,161 @@
 # 🚀 100 Days, 100 Questions
 
-A 100-day coding challenge to strengthen my Python fundamentals, improve logical thinking, and become a better problem solver.
+A daily Python problem-solving challenge to strengthen my programming fundamentals, logical thinking, and coding consistency.
 
-## 📊 Progress
-
-**25/100 Questions Completed** 🔥
-
-**25% Completed**
+I'm documenting my journey from beginner Python programs to stronger problem-solving skills — one question at a time.
 
 ---
 
-## 📝 Latest Question
+## 📈 Progress
 
-### Q25 — Sum of Natural Numbers from 1 to n
+- **Completed:** 26 / 100 Questions
+- **Progress:** 26%
+- **Current Challenge:** 100 Days, 100 Questions
+- **Latest Question:** Q26 — Sum of All Even Numbers from 1 to n
 
-**Problem:** Write a Python program to calculate the sum of all natural numbers from `1` to `n`.
+---
+
+## 🐍 Latest Problem
+
+### Q26 — Sum of All Even Numbers from 1 to n
+
+**Problem Statement:**
+
+Write a Python program to calculate the sum of all even numbers from 1 to a user-provided number `n`.
 
 **Example:**
 
 ```text
-Input: 5
-Output: 15
+Input: 10
+Output: 30
 ```
 
+Explanation: The even numbers from 1 to 10 are 2, 4, 6, 8, and 10.
+
+Their sum is 30.
+
 **Concepts Practiced:**
-- `for` loops
-- Python's `range()` function
+- `input()` and type conversion
+- `for` loops and `range()`
+- Conditional statements
+- Even-number checking using the modulus operator (`%`)
 - Accumulator variables
-- Variable updates
-- Arithmetic operations
-- Loop tracing and debugging
-- Understanding how values change during each iteration
+- Arithmetic and logical thinking
 
-**Approach:**
-
-1. Take an integer `n` as input.
-2. Initialize `total = 0` before the loop.
-3. Iterate from `1` through `n`, including `n`.
-4. Add each number to the running total.
-5. Print the final result after the loop.
-
-**Key Learning:** An accumulator stores a running result. It should be initialized before the loop, updated during each iteration, and printed after the loop finishes.
-
-Python's `range()` excludes its ending value, so `range(1, n + 1)` is used to include `n`.
-
-**Solution file:** [`Q25.py`](Q25.py)
+**File:** `Q26.py`
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
 ```text
 100-day-100-questions/
+│
 ├── Q1.py
 ├── Q2.py
 ├── Q3.py
 ├── ...
-├── Q20.py
-├── Q21.py
-├── Q22.py
-├── Q23.py
 ├── Q24.py
 ├── Q25.py
+├── Q26.py
 ├── ...
 ├── Q100.py
+│
 └── README.md
 ```
+
+Each Python file contains my solution to an individual problem.
 
 ---
 
 ## 🧠 Concepts I'm Learning
 
 - Variables and data types
-- Input and output
-- Conditional statements
-- Comparison operators
-- Boolean logic
-- Loops and nested loops
+- User input and output
+- Arithmetic operators
+- Conditional statements (`if`, `elif`, `else`)
+- Comparison and Boolean logic
+- Loops (`for` and `while`)
 - Lists, tuples, dictionaries, and sets
 - Functions and parameters
 - Recursion and base cases
 - Accumulator patterns
-- Debugging and problem-solving
+- Modulus and divisibility
+- Problem-solving and debugging
 
 ---
 
-## 🎯 My Rules
+## 🎯 My Approach
 
-- **Consistency over perfection:** Solve one question at a time.
-- **Understand, don't copy:** Focus on understanding why a solution works.
-- **Try independently:** Attempt each problem before seeking help.
-- **Learn from mistakes:** Debug errors and improve my approach.
-- **Keep progressing:** Gradually increase the difficulty of the questions.
+For each question, I aim to:
+
+1. Understand the problem.
+2. Break it into smaller logical steps.
+3. Attempt a solution independently.
+4. Test the program with different inputs.
+5. Debug mistakes and learn from them.
+6. Document my progress.
+
+The goal is to understand the logic rather than simply copy solutions.
 
 ---
 
-## 📈 Learning Roadmap
+## 📌 Challenge Rules
+
+- Solve one question at a time.
+- Stay consistent throughout the challenge.
+- Try independently before seeking help.
+- Understand every line of code I write.
+- Learn from mistakes instead of avoiding them.
+- Keep improving my problem-solving skills.
+
+---
+
+## 🗺️ Learning Roadmap
 
 ```text
-Basic Syntax
-     ↓
+Python Fundamentals
+        ↓
 Conditional Statements
-     ↓
-Loops
-     ↓
-Lists, Tuples, Dictionaries & Sets
-     ↓
+        ↓
+Loops and Iteration
+        ↓
+Lists, Tuples, Dictionaries, Sets
+        ↓
 Functions
-     ↓
+        ↓
 Recursion
-     ↓
+        ↓
 Problem-Solving Patterns
-     ↓
-Data Structures & Algorithms
+        ↓
+Data Structures and Algorithms
 ```
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a BCA Artificial Intelligence & Machine Learning student at LPU, building my programming fundamentals and documenting my coding journey through this challenge.
+I'm a BCA Artificial Intelligence & Machine Learning student at Lovely Professional University.
 
-### Current Focus
+Currently focusing on:
 
-- 🐍 Python
-- 💻 C Programming
-- 🗄️ SQL
-- 🍃 MongoDB
-- 🔧 Git & GitHub
-- 🧠 Problem-Solving Skills
+- Python programming
+- C programming
+- SQL and MongoDB
+- Git and GitHub
+- Logical thinking and problem-solving
+- Building projects independently
+
+**GitHub:** [Mann-1711](https://github.com/Mann-1711)
 
 ---
 
-## 🔥 My Goal
+## 🔥 The Goal
 
 **100 Days. 100 Questions. Continuous Improvement.**
 
-The goal isn't just to finish 100 questions. It's to become a better programmer by learning the logic, understanding mistakes, debugging independently, and building confidence one problem at a time.
+This challenge is about building consistency, developing independent thinking, and strengthening the foundations needed for future software engineering and AI/ML projects.
 
-**Current Status: Q25/100 ✅**
+**Current Status:** Q26 / 100 completed.
 
-On to Q26! 🚀
+### 🚀 On to Q27!
