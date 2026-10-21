@@ -1,135 +1,90 @@
 # 🚀 100 Days, 100 Questions
 
-A daily Python problem-solving challenge to strengthen my programming fundamentals, logical thinking, and coding consistency.
+A daily Python coding challenge to strengthen my programming fundamentals, logical thinking, and independent problem-solving skills.
 
-I'm documenting my journey from beginner Python programs to stronger problem-solving skills — one question at a time.
+## 📊 Progress
 
----
-
-## 📈 Progress
-
-- **Completed:** 26 / 100 Questions
-- **Progress:** 26%
-- **Current Challenge:** 100 Days, 100 Questions
-- **Latest Question:** Q26 — Sum of All Even Numbers from 1 to n
+- **Completed:** 27/100 questions
+- **Progress:** 27%
+- **Latest Question:** Q27 — Recursive Power Calculator
 
 ---
 
-## 🐍 Latest Problem
-
-### Q26 — Sum of All Even Numbers from 1 to n
+## 🐍 Q27 — Recursive Power Calculator
 
 **Problem Statement:**
 
-Write a Python program to calculate the sum of all even numbers from 1 to a user-provided number `n`.
+Write a Python program to calculate the power of a number using recursion without using Python's built-in exponentiation operator (`**`).
 
 **Example:**
 
 ```text
-Input: 10
-Output: 30
+Input:
+Base: 2
+Exponent: 5
+
+Output:
+32
 ```
 
-Explanation: The even numbers from 1 to 10 are 2, 4, 6, 8, and 10.
-
-Their sum is 30.
-
 **Concepts Practiced:**
-- `input()` and type conversion
-- `for` loops and `range()`
-- Conditional statements
-- Even-number checking using the modulus operator (`%`)
-- Accumulator variables
-- Arithmetic and logical thinking
+- Recursive functions
+- Base cases and stopping conditions
+- Recursive calls
+- Function parameters and return values
+- Breaking a problem into smaller subproblems
+- Tracing recursive execution
 
-**File:** `Q26.py`
+**File:** `Q27.py`
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
 100-day-100-questions/
-│
 ├── Q1.py
 ├── Q2.py
 ├── Q3.py
 ├── ...
-├── Q24.py
 ├── Q25.py
 ├── Q26.py
+├── Q27.py
 ├── ...
 ├── Q100.py
-│
 └── README.md
 ```
-
-Each Python file contains my solution to an individual problem.
 
 ---
 
 ## 🧠 Concepts I'm Learning
 
 - Variables and data types
-- User input and output
-- Arithmetic operators
-- Conditional statements (`if`, `elif`, `else`)
-- Comparison and Boolean logic
-- Loops (`for` and `while`)
+- Input and output
+- Conditional statements
+- Loops and iteration
 - Lists, tuples, dictionaries, and sets
-- Functions and parameters
+- Functions and return values
 - Recursion and base cases
 - Accumulator patterns
-- Modulus and divisibility
-- Problem-solving and debugging
+- Debugging and logical problem-solving
 
 ---
 
 ## 🎯 My Approach
 
-For each question, I aim to:
-
 1. Understand the problem.
-2. Break it into smaller logical steps.
-3. Attempt a solution independently.
-4. Test the program with different inputs.
-5. Debug mistakes and learn from them.
-6. Document my progress.
-
-The goal is to understand the logic rather than simply copy solutions.
+2. Attempt a solution independently.
+3. Break the problem into smaller steps.
+4. Test different inputs.
+5. Debug mistakes and understand why they occurred.
+6. Improve my logic rather than simply copying a solution.
 
 ---
 
-## 📌 Challenge Rules
+## 📈 Learning Roadmap
 
-- Solve one question at a time.
-- Stay consistent throughout the challenge.
-- Try independently before seeking help.
-- Understand every line of code I write.
-- Learn from mistakes instead of avoiding them.
-- Keep improving my problem-solving skills.
-
----
-
-## 🗺️ Learning Roadmap
-
-```text
-Python Fundamentals
-        ↓
-Conditional Statements
-        ↓
-Loops and Iteration
-        ↓
-Lists, Tuples, Dictionaries, Sets
-        ↓
-Functions
-        ↓
-Recursion
-        ↓
-Problem-Solving Patterns
-        ↓
-Data Structures and Algorithms
-```
+Python Fundamentals → Conditional Statements → Loops → Collections → Functions → Recursion → Problem-Solving Patterns → Data Structures and Algorithms
 
 ---
 
@@ -137,14 +92,12 @@ Data Structures and Algorithms
 
 I'm a BCA Artificial Intelligence & Machine Learning student at Lovely Professional University.
 
-Currently focusing on:
-
+**Current Focus:**
 - Python programming
 - C programming
 - SQL and MongoDB
 - Git and GitHub
-- Logical thinking and problem-solving
-- Building projects independently
+- Independent problem-solving
 
 **GitHub:** [Mann-1711](https://github.com/Mann-1711)
 
@@ -154,8 +107,8 @@ Currently focusing on:
 
 **100 Days. 100 Questions. Continuous Improvement.**
 
-This challenge is about building consistency, developing independent thinking, and strengthening the foundations needed for future software engineering and AI/ML projects.
+The goal is to develop strong programming fundamentals by solving problems consistently, understanding my mistakes, and becoming more independent as a programmer.
 
-**Current Status:** Q26 / 100 completed.
+**Current Status: Q27/100**
 
-### 🚀 On to Q27!
+🚀 On to Q28!
