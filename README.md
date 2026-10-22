@@ -1,114 +1,56 @@
-# 🚀 100 Days, 100 Questions
+# 💯 100 Days, 100 Questions — Python Challenge
 
-A daily Python coding challenge to strengthen my programming fundamentals, logical thinking, and independent problem-solving skills.
+I'm solving 100 Python programming questions to strengthen my programming fundamentals, problem-solving skills, and logical thinking.
 
-## 📊 Progress
+## 📊 Progress Tracker
 
-- **Completed:** 27/100 questions
-- **Progress:** 27%
-- **Latest Question:** Q27 — Recursive Power Calculator
+- **Completed:** 28 / 100 questions
+- **Progress:** 28%
+- **Current Question:** Q28 — Factorial of a Number
+- **Language:** Python 🐍
 
----
+## ✅ Latest Completed Questions
 
-## 🐍 Q27 — Recursive Power Calculator
+### Q28 — Factorial of a Number
 
-**Problem Statement:**
-
-Write a Python program to calculate the power of a number using recursion without using Python's built-in exponentiation operator (`**`).
+**Problem:** Write a program to find the product of all natural numbers from 1 to `n` (the factorial of `n`).
 
 **Example:**
+- Input: `5`
+- Output: `120`
 
-```text
-Input:
-Base: 2
-Exponent: 5
+**Concepts practiced:**
+- `for` loops and `range()`
+- Variables and initialization
+- Accumulator pattern
+- Multiplication and assignment
+- Factorial calculations
 
-Output:
-32
+**Key learning:** A running product must start at `1` and multiply the previous result by the current number.
+
+```python
+n = int(input("Enter any number: "))
+total = 1
+
+for i in range(1, n + 1):
+    total = total * i
+
+print("Factorial:", total)
 ```
 
-**Concepts Practiced:**
-- Recursive functions
-- Base cases and stopping conditions
-- Recursive calls
-- Function parameters and return values
-- Breaking a problem into smaller subproblems
-- Tracing recursive execution
+**File:** `Q28.py`
 
-**File:** `Q27.py`
+## 🎯 Goal
 
----
+- Complete 100 Python programming questions.
+- Develop strong problem-solving and logical-thinking skills.
+- Practise writing readable, understandable code.
+- Build a consistent daily coding habit.
 
-## 📁 Repository Structure
+## 📚 Learning Approach
 
-```text
-100-day-100-questions/
-├── Q1.py
-├── Q2.py
-├── Q3.py
-├── ...
-├── Q25.py
-├── Q26.py
-├── Q27.py
-├── ...
-├── Q100.py
-└── README.md
-```
+I focus on understanding the logic behind each problem, identifying mistakes, and improving my solution instead of simply copying code.
 
 ---
 
-## 🧠 Concepts I'm Learning
-
-- Variables and data types
-- Input and output
-- Conditional statements
-- Loops and iteration
-- Lists, tuples, dictionaries, and sets
-- Functions and return values
-- Recursion and base cases
-- Accumulator patterns
-- Debugging and logical problem-solving
-
----
-
-## 🎯 My Approach
-
-1. Understand the problem.
-2. Attempt a solution independently.
-3. Break the problem into smaller steps.
-4. Test different inputs.
-5. Debug mistakes and understand why they occurred.
-6. Improve my logic rather than simply copying a solution.
-
----
-
-## 📈 Learning Roadmap
-
-Python Fundamentals → Conditional Statements → Loops → Collections → Functions → Recursion → Problem-Solving Patterns → Data Structures and Algorithms
-
----
-
-## 👨‍💻 About Me
-
-I'm a BCA Artificial Intelligence & Machine Learning student at Lovely Professional University.
-
-**Current Focus:**
-- Python programming
-- C programming
-- SQL and MongoDB
-- Git and GitHub
-- Independent problem-solving
-
-**GitHub:** [Mann-1711](https://github.com/Mann-1711)
-
----
-
-## 🔥 The Goal
-
-**100 Days. 100 Questions. Continuous Improvement.**
-
-The goal is to develop strong programming fundamentals by solving problems consistently, understanding my mistakes, and becoming more independent as a programmer.
-
-**Current Status: Q27/100**
-
-🚀 On to Q28!
+*One question at a time. One step closer to becoming a better programmer.* 🚀
