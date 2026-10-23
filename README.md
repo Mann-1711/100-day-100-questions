@@ -1,56 +1,48 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-I'm solving 100 Python programming questions to strengthen my programming fundamentals, problem-solving skills, and logical thinking.
+## 📅 Day 29: Multiplication Table of a Number
 
-## 📊 Progress Tracker
+### 📝 Problem Statement
+Write a program to display the multiplication table of a number `n`.
 
-- **Completed:** 28 / 100 questions
-- **Progress:** 28%
-- **Current Question:** Q28 — Factorial of a Number
-- **Language:** Python 🐍
+### 🎯 Objective
+Practice using loops, user input, variables, and arithmetic operations to generate a multiplication table.
 
-## ✅ Latest Completed Questions
+### 💡 Example
 
-### Q28 — Factorial of a Number
-
-**Problem:** Write a program to find the product of all natural numbers from 1 to `n` (the factorial of `n`).
-
-**Example:**
-- Input: `5`
-- Output: `120`
-
-**Concepts practiced:**
-- `for` loops and `range()`
-- Variables and initialization
-- Accumulator pattern
-- Multiplication and assignment
-- Factorial calculations
-
-**Key learning:** A running product must start at `1` and multiply the previous result by the current number.
-
-```python
-n = int(input("Enter any number: "))
-total = 1
-
-for i in range(1, n + 1):
-    total = total * i
-
-print("Factorial:", total)
+**Input:**
+```text
+Enter a number: 5
 ```
 
-**File:** `Q28.py`
+**Output:**
+```text
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
 
-## 🎯 Goal
+### 🧠 Concepts Practised
+- User input with `input()`
+- Type conversion using `int()`
+- Loops using `for` and `range()`
+- Multiplication using the `*` operator
+- Formatted output using f-strings
 
-- Complete 100 Python programming questions.
-- Develop strong problem-solving and logical-thinking skills.
-- Practise writing readable, understandable code.
-- Build a consistent daily coding habit.
+### 📂 File
+`Q29.py`
 
-## 📚 Learning Approach
+### 🚀 Challenge Progress
+- **Completed:** 29/100 questions
+- **Remaining:** 71 questions
 
-I focus on understanding the logic behind each problem, identifying mistakes, and improving my solution instead of simply copying code.
+> One question at a time. One step closer to stronger programming logic.
 
----
-
-*One question at a time. One step closer to becoming a better programmer.* 🚀
+**Keep Building! 🐍**
