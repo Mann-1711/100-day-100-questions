@@ -1,48 +1,50 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 29: Multiplication Table of a Number
+## 📅 Day 30: Multiples of a Number
 
 ### 📝 Problem Statement
-Write a program to display the multiplication table of a number `n`.
+Write a program to display all multiples of a number `m` up to `n` terms.
 
 ### 🎯 Objective
-Practice using loops, user input, variables, and arithmetic operations to generate a multiplication table.
+Generate the first `n` multiples of a given number using loops and multiplication.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter a number: 5
+Enter the number (m): 4
+Enter the number of terms (n): 5
 ```
 
 **Output:**
 ```text
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
+4
+8
+12
+16
+20
 ```
 
-### 🧠 Concepts Practised
-- User input with `input()`
+### 🧠 Logic
+- Take the number `m` as input.
+- Take the number of terms `n` as input.
+- Use a loop from `1` to `n`.
+- Multiply `m` by each loop value and display the result.
+
+### 🧪 Python Concepts Practised
+- User input using `input()`
 - Type conversion using `int()`
-- Loops using `for` and `range()`
+- `for` loops and `range()`
 - Multiplication using the `*` operator
-- Formatted output using f-strings
+- Generating number sequences
 
 ### 📂 File
-`Q29.py`
+`Q30.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 29/100 questions
-- **Remaining:** 71 questions
+- **Completed:** 30/100 questions
+- **Remaining:** 70 questions
 
-> One question at a time. One step closer to stronger programming logic.
+> Consistency builds logic. Every problem is another step forward.
 
 **Keep Building! 🐍**
