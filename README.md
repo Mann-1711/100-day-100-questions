@@ -1,40 +1,45 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 31: Count Numbers Divisible by 3
+## 📅 Day 32: Numbers Divisible by 3 or 5
 
 ### 📝 Problem Statement
-Write a program to count how many numbers from `1` to `n` are divisible by `3`.
+Write a program to display all numbers from `1` to `n` that are divisible by `3` or `5`.
 
 ### 🎯 Objective
-Use loops, conditional statements, the modulo operator, and a counter variable to count numbers that satisfy a given condition.
+Use loops, conditional statements, the modulo operator, and logical operators to find numbers that satisfy at least one of two conditions.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 10
+Enter any number: 15
 ```
 
 **Output:**
 ```text
-There are 3 numbers divisible by 3.
+3
+5
+6
+9
+10
+12
+15
 ```
 
 **Explanation:**
 
-The numbers from 1 to 10 divisible by 3 are:
+The numbers from 1 to 15 divisible by 3 or 5 are:
 
-`3, 6, 9`
+`3, 5, 6, 9, 10, 12, 15`
 
-Therefore, the total count is `3`.
+Therefore, these numbers are displayed.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Initialize a counter variable `count = 0`.
-3. Loop through the numbers from `1` to `n`.
-4. Check whether each number is divisible by `3` using `i % 3 == 0`.
-5. If the condition is true, increase `count` by `1`.
-6. After the loop, display the final count.
+2. Loop through the numbers from `1` to `n`.
+3. Check whether each number is divisible by `3` or `5` using `i % 3 == 0 or i % 5 == 0`.
+4. If either condition is true, display the number.
+5. Continue until all numbers from `1` to `n` have been checked.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
@@ -42,14 +47,14 @@ Therefore, the total count is `3`.
 - `for` loops and `range()`
 - Conditional statements using `if`
 - Modulo operator `%`
-- Counter variables and `count += 1`
+- Logical `or` operator
 
 ### 📂 File
-`Q31.py`
+`Q32.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 31/100 questions
-- **Remaining:** 69 questions
+- **Completed:** 32/100 questions
+- **Remaining:** 68 questions
 
 > Every loop builds logic. Every problem builds experience.
 
