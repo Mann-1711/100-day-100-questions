@@ -1,60 +1,55 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 32: Numbers Divisible by 3 or 5
+## 📅 Day 33: Count the Number of Digits
 
 ### 📝 Problem Statement
-Write a program to display all numbers from `1` to `n` that are divisible by `3` or `5`.
+Write a program to count the number of digits in a number `n`.
 
 ### 🎯 Objective
-Use loops, conditional statements, the modulo operator, and logical operators to find numbers that satisfy at least one of two conditions.
+Use loops, counter variables, and integer division to determine how many digits a number contains.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 15
+Enter a number: 583
 ```
 
 **Output:**
 ```text
-3
-5
-6
-9
-10
-12
-15
+Number of digits: 3
 ```
 
 **Explanation:**
 
-The numbers from 1 to 15 divisible by 3 or 5 are:
+The number `583` contains three digits: `5`, `8`, and `3`.
 
-`3, 5, 6, 9, 10, 12, 15`
-
-Therefore, these numbers are displayed.
+Therefore, the total number of digits is `3`.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Loop through the numbers from `1` to `n`.
-3. Check whether each number is divisible by `3` or `5` using `i % 3 == 0 or i % 5 == 0`.
-4. If either condition is true, display the number.
-5. Continue until all numbers from `1` to `n` have been checked.
+2. Handle the special case where `n` is `0`, since zero has one digit.
+3. Use the absolute value of `n` to handle negative numbers.
+4. Initialize a counter variable `count = 0`.
+5. Repeatedly divide the number by `10` using integer division (`//`).
+6. Increase the counter by `1` for each digit removed.
+7. Display the final count.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
 - Type conversion using `int()`
-- `for` loops and `range()`
-- Conditional statements using `if`
-- Modulo operator `%`
-- Logical `or` operator
+- `while` loops
+- Conditional statements using `if` and `else`
+- Counter variables and `count += 1`
+- Absolute value using `abs()`
+- Integer division using `//`
 
 ### 📂 File
-`Q32.py`
+`Q33.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 32/100 questions
-- **Remaining:** 68 questions
+- **Completed:** 33/100 questions
+- **Remaining:** 67 questions
 
 > Every loop builds logic. Every problem builds experience.
 
