@@ -1,56 +1,64 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 33: Count the Number of Digits
+## 📅 Day 34: Display All Digits of a Number
 
 ### 📝 Problem Statement
-Write a program to count the number of digits in a number `n`.
+Write a program to display all the digits of a number `n`, with each digit printed on a separate line in the original order.
 
 ### 🎯 Objective
-Use loops, counter variables, and integer division to determine how many digits a number contains.
+Use loops, modulus, integer division, and a temporary variable to extract digits and display them in the correct order.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter a number: 583
+Enter any number: 1234
 ```
 
 **Output:**
 ```text
-Number of digits: 3
+1
+2
+3
+4
 ```
 
 **Explanation:**
 
-The number `583` contains three digits: `5`, `8`, and `3`.
+The number `1234` contains four digits: `1`, `2`, `3`, and `4`.
 
-Therefore, the total number of digits is `3`.
+The program first extracts the digits from right to left and builds the reversed number `4321`. It then extracts the digits again to print them in their original order, one per line.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Handle the special case where `n` is `0`, since zero has one digit.
-3. Use the absolute value of `n` to handle negative numbers.
-4. Initialize a counter variable `count = 0`.
-5. Repeatedly divide the number by `10` using integer division (`//`).
-6. Increase the counter by `1` for each digit removed.
-7. Display the final count.
+2. Use `abs()` to handle negative numbers.
+3. Store the original number in a temporary variable `temp`.
+4. Initialize `reverse = 0`.
+5. Extract the last digit using the modulus operator (`% 10`).
+6. Build the reversed number using `reverse = reverse * 10 + digit`.
+7. Remove the last digit from `temp` using integer division (`// 10`) and repeat until `temp` becomes `0`.
+8. Handle the special case where the original number is `0`.
+9. Extract digits from the reversed number and print each digit on a separate line.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
 - Type conversion using `int()`
 - `while` loops
 - Conditional statements using `if` and `else`
-- Counter variables and `count += 1`
-- Absolute value using `abs()`
+- Modulus operator using `%`
 - Integer division using `//`
+- Temporary variables
+- Number reversal and digit extraction
+- Handling special cases
 
 ### 📂 File
-`Q33.py`
+`Q34.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 33/100 questions
-- **Remaining:** 67 questions
+- **Completed:** 34/100 questions
+- **Remaining:** 66 questions
 
 > Every loop builds logic. Every problem builds experience.
 
 **Keep Building! 🐍**
+
