@@ -1,64 +1,63 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 34: Display All Digits of a Number
+## 📅 Day 35: Sum of All Digits
 
 ### 📝 Problem Statement
-Write a program to display all the digits of a number `n`, with each digit printed on a separate line in the original order.
+Write a program to find the sum of all digits of a number `n`.
 
 ### 🎯 Objective
-Use loops, modulus, integer division, and a temporary variable to extract digits and display them in the correct order.
+Use loops, modulus, integer division, and a running total to extract and add all digits of a number.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 1234
+Enter any number: 583
 ```
 
 **Output:**
 ```text
-1
-2
-3
-4
+The sum of all digits of a number n: 16
 ```
 
-**Explanation:**
+### 📖 Explanation
 
-The number `1234` contains four digits: `1`, `2`, `3`, and `4`.
+The number `583` contains three digits: `5`, `8`, and `3`.
 
-The program first extracts the digits from right to left and builds the reversed number `4321`. It then extracts the digits again to print them in their original order, one per line.
+Their sum is:
+
+`5 + 8 + 3 = 16`
+
+The program repeatedly extracts the last digit using the modulus operator (`% 10`), adds it to a running total, and removes the last digit using integer division (`// 10`). This process continues until no digits remain.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Use `abs()` to handle negative numbers.
-3. Store the original number in a temporary variable `temp`.
-4. Initialize `reverse = 0`.
-5. Extract the last digit using the modulus operator (`% 10`).
-6. Build the reversed number using `reverse = reverse * 10 + digit`.
-7. Remove the last digit from `temp` using integer division (`// 10`) and repeat until `temp` becomes `0`.
-8. Handle the special case where the original number is `0`.
-9. Extract digits from the reversed number and print each digit on a separate line.
+2. Store the number in a working variable `bc`.
+3. Initialize `total = 0`.
+4. Use a `while` loop that runs while `bc > 0`.
+5. Extract the last digit using `bc % 10`.
+6. Add the extracted digit to `total`.
+7. Remove the last digit using `bc = bc // 10`.
+8. Repeat until `bc` becomes `0`.
+9. Display the final sum.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
 - Type conversion using `int()`
 - `while` loops
-- Conditional statements using `if` and `else`
-- Modulus operator using `%`
-- Integer division using `//`
-- Temporary variables
-- Number reversal and digit extraction
-- Handling special cases
+- Modulus operator (`%`)
+- Integer division (`//`)
+- Running totals and accumulation
+- Working variables
+- Digit extraction and basic arithmetic
 
 ### 📂 File
-`Q34.py`
+`Q35.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 34/100 questions
-- **Remaining:** 66 questions
+- **Completed:** 35/100 questions
+- **Remaining:** 65 questions
 
 > Every loop builds logic. Every problem builds experience.
 
 **Keep Building! 🐍**
-
