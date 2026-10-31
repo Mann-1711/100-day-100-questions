@@ -1,47 +1,45 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 36: Product of All Digits
+## 📅 Day 37: Reverse a Number
 
 ### 📝 Problem Statement
-Write a program to find the product of all digits of a number `n`.
+Write a program to reverse a number `n`.
 
 ### 🎯 Objective
-Use loops, modulus, integer division, and a running product to extract and multiply all digits of a number.
+Use loops, modulus, integer division, and a running result to reverse the digits of a number.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 234
+Enter any number: 1234
 ```
 
 **Output:**
 ```text
-The product of all digits of a number n: 24
+Reversed number: 4321
 ```
 
 ### 📖 Explanation
 
-The number `234` contains three digits: `2`, `3`, and `4`.
+The number `1234` contains four digits. Reversing their order gives `4321`.
 
-Their product is:
+The program repeatedly extracts the last digit using the modulus operator (`% 10`), adds it to the reversed number after shifting the existing result one decimal place using multiplication by `10`, and removes the last digit using integer division (`// 10`).
 
-`2 × 3 × 4 = 24`
-
-The program repeatedly extracts the last digit using the modulus operator (`% 10`), multiplies it with the running product, and removes the last digit using integer division (`// 10`). This process continues until no digits remain.
+This process continues until all digits have been extracted.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Use `abs()` to handle negative numbers.
-3. Store the number in a working variable `bc`.
-4. Initialize `product = 1`.
-5. Handle the special case where `n` is `0`, since its digit product is `0`.
-6. Use a `while` loop that runs while `bc > 0`.
-7. Extract the last digit using `bc % 10`.
-8. Multiply the extracted digit with `product`.
+2. Initialize `rev = 0` to store the reversed number.
+3. Store the original number in a working variable `bc`.
+4. Handle the special case where `n` is `0`.
+5. Use a `while` loop that runs while `bc > 0`.
+6. Extract the last digit using `bc % 10`.
+7. Shift the current reversed number one decimal place to the left using `rev = rev * 10`.
+8. Add the extracted digit to `rev`.
 9. Remove the last digit using `bc = bc // 10`.
 10. Repeat until `bc` becomes `0`.
-11. Display the final product.
+11. Display the reversed number.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
@@ -50,17 +48,17 @@ The program repeatedly extracts the last digit using the modulus operator (`% 10
 - Conditional statements using `if` and `else`
 - Modulus operator (`%`)
 - Integer division (`//`)
-- Running products and accumulation
+- Running results and accumulation
 - Working variables
-- Digit extraction and multiplication
-- Handling special cases using conditional statements
+- Digit extraction
+- Number manipulation
 
 ### 📂 File
-`Q36.py`
+`Q37.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 36/100 questions
-- **Remaining:** 64 questions
+- **Completed:** 37/100 questions
+- **Remaining:** 63 questions
 
 > Every loop builds logic. Every problem builds experience.
 
