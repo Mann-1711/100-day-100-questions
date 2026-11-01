@@ -1,64 +1,69 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 37: Reverse a Number
+## 📅 Day 38: Find the Largest Digit in a Number
 
 ### 📝 Problem Statement
-Write a program to reverse a number `n`.
+Write a program to find the largest digit in a number `n`.
 
 ### 🎯 Objective
-Use loops, modulus, integer division, and a running result to reverse the digits of a number.
+Use loops, modulus, integer division, and conditional statements to extract digits and identify the largest digit in a number.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 1234
+Enter any number: 5832
 ```
 
 **Output:**
 ```text
-Reversed number: 4321
+The largest digit in the number is: 8
 ```
 
 ### 📖 Explanation
 
-The number `1234` contains four digits. Reversing their order gives `4321`.
+The number `5832` contains four digits: `5`, `8`, `3`, and `2`.
 
-The program repeatedly extracts the last digit using the modulus operator (`% 10`), adds it to the reversed number after shifting the existing result one decimal place using multiplication by `10`, and removes the last digit using integer division (`// 10`).
+The largest among these digits is `8`.
 
-This process continues until all digits have been extracted.
+The program repeatedly extracts the last digit using the modulus operator (`% 10`) and compares it with the current largest digit.
+
+If the extracted digit is greater than the current largest digit, the largest value is updated.
+
+The last digit is then removed using integer division (`// 10`). This process continues until all digits have been checked.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Initialize `rev = 0` to store the reversed number.
-3. Store the original number in a working variable `bc`.
-4. Handle the special case where `n` is `0`.
+2. Use `abs()` to handle negative numbers.
+3. Store the number in a working variable `bc`.
+4. Initialize `largest = 0` to track the largest digit.
 5. Use a `while` loop that runs while `bc > 0`.
 6. Extract the last digit using `bc % 10`.
-7. Shift the current reversed number one decimal place to the left using `rev = rev * 10`.
-8. Add the extracted digit to `rev`.
+7. Compare the extracted digit with `largest` using an `if` statement.
+8. If `digit > largest`, update `largest = digit`.
 9. Remove the last digit using `bc = bc // 10`.
 10. Repeat until `bc` becomes `0`.
-11. Display the reversed number.
+11. Display the largest digit.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
 - Type conversion using `int()`
 - `while` loops
-- Conditional statements using `if` and `else`
+- Conditional statements using `if`
 - Modulus operator (`%`)
 - Integer division (`//`)
-- Running results and accumulation
 - Working variables
 - Digit extraction
-- Number manipulation
+- Comparison operators (`>`)
+- Finding maximum values
+- Handling negative numbers using `abs()`
 
 ### 📂 File
-`Q37.py`
+`Q38.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 37/100 questions
-- **Remaining:** 63 questions
+- **Completed:** 38/100 questions
+- **Remaining:** 62 questions
 
 > Every loop builds logic. Every problem builds experience.
 
