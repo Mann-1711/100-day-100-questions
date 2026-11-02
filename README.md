@@ -1,12 +1,12 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 38: Find the Largest Digit in a Number
+## 📅 Day 39: Find the Smallest Digit in a Number
 
 ### 📝 Problem Statement
-Write a program to find the largest digit in a number `n`.
+Write a program to find the smallest digit in a number `n`.
 
 ### 🎯 Objective
-Use loops, modulus, integer division, and conditional statements to extract digits and identify the largest digit in a number.
+Use loops, modulus, integer division, and conditional statements to extract digits and identify the smallest digit in a number.
 
 ### 💡 Example
 
@@ -17,18 +17,18 @@ Enter any number: 5832
 
 **Output:**
 ```text
-The largest digit in the number is: 8
+The smallest digit in the number is: 2
 ```
 
 ### 📖 Explanation
 
 The number `5832` contains four digits: `5`, `8`, `3`, and `2`.
 
-The largest among these digits is `8`.
+The smallest among these digits is `2`.
 
-The program repeatedly extracts the last digit using the modulus operator (`% 10`) and compares it with the current largest digit.
+The program repeatedly extracts the last digit using the modulus operator (`% 10`) and compares it with the current smallest digit.
 
-If the extracted digit is greater than the current largest digit, the largest value is updated.
+If the extracted digit is smaller than the current smallest digit, the value is updated.
 
 The last digit is then removed using integer division (`// 10`). This process continues until all digits have been checked.
 
@@ -36,14 +36,15 @@ The last digit is then removed using integer division (`// 10`). This process co
 1. Take an integer `n` as input.
 2. Use `abs()` to handle negative numbers.
 3. Store the number in a working variable `bc`.
-4. Initialize `largest = 0` to track the largest digit.
-5. Use a `while` loop that runs while `bc > 0`.
-6. Extract the last digit using `bc % 10`.
-7. Compare the extracted digit with `largest` using an `if` statement.
-8. If `digit > largest`, update `largest = digit`.
-9. Remove the last digit using `bc = bc // 10`.
-10. Repeat until `bc` becomes `0`.
-11. Display the largest digit.
+4. Initialize `smallest = 9` to track the smallest possible decimal digit.
+5. Handle the special case where `n` is `0`, since its smallest digit is `0`.
+6. Use a `while` loop that runs while `bc > 0`.
+7. Extract the last digit using `bc % 10`.
+8. Compare the extracted digit with `smallest` using an `if` statement.
+9. If `digit < smallest`, update `smallest = digit`.
+10. Remove the last digit using `bc = bc // 10`.
+11. Repeat until `bc` becomes `0`.
+12. Display the smallest digit.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
@@ -54,16 +55,17 @@ The last digit is then removed using integer division (`// 10`). This process co
 - Integer division (`//`)
 - Working variables
 - Digit extraction
-- Comparison operators (`>`)
-- Finding maximum values
+- Comparison operators (`<`)
+- Finding minimum values
 - Handling negative numbers using `abs()`
+- Handling special cases using conditional statements
 
 ### 📂 File
-`Q38.py`
+`Q39.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 38/100 questions
-- **Remaining:** 62 questions
+- **Completed:** 39/100 questions
+- **Remaining:** 61 questions
 
 > Every loop builds logic. Every problem builds experience.
 
