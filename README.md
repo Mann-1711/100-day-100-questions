@@ -1,80 +1,86 @@
 # 💯 100 Days, 100 Questions — Python Challenge
 
-## 📅 Day 40: Count Even and Odd Digits in a Number
+## 📅 Day 41: Check Whether a Number Is a Palindrome
 
 ### 📝 Problem Statement
-Write a program to count the number of even digits and odd digits in a number `n`.
+Write a program to check whether a number `n` is a palindrome (reads the same reversed).
 
 ### 🎯 Objective
-Use loops, modulus, integer division, and conditional statements to extract digits and count how many are even and odd.
+Use loops, modulus, integer division, and conditional statements to reverse a number and compare it with the original number.
 
 ### 💡 Example
 
 **Input:**
 ```text
-Enter any number: 123456
+Enter any number: 121
 ```
 
 **Output:**
 ```text
-Total number of even digits: 3
-Total number of odd digits: 3
+This number is palindrome.
+```
+
+**Another Example:**
+
+**Input:**
+```text
+Enter any number: 123
+```
+
+**Output:**
+```text
+This number is not a palindrome.
 ```
 
 ### 📖 Explanation
 
-The number `123456` contains six digits:
+A palindrome number reads the same forward and backward.
 
-- Even digits: `2`, `4`, `6`
-- Odd digits: `1`, `3`, `5`
+For example:
+- `121` reversed is `121`, so it is a palindrome.
+- `123` reversed is `321`, so it is not a palindrome.
 
-Therefore:
-- Total even digits = 3
-- Total odd digits = 3
+The program repeatedly extracts the last digit using the modulus operator (`% 10`), builds the reversed number by multiplying the current result by 10 and adding the extracted digit, and removes the last digit using integer division (`// 10`).
 
-The program repeatedly extracts the last digit using the modulus operator (`% 10`) and checks whether it is divisible by 2.
+After reversing the number, it compares the reversed value with the original number.
 
-If the digit is divisible by 2, the even counter is increased. Otherwise, the odd counter is increased.
-
-The last digit is removed using integer division (`// 10`). This process continues until all digits have been checked.
+If both values are equal, the number is a palindrome. Otherwise, it is not.
 
 ### 🧠 Logic
 1. Take an integer `n` as input.
-2. Use `abs()` to handle negative numbers.
-3. Store the number in a working variable `bc`.
-4. Initialize `count1 = 0` for even digits.
-5. Initialize `count2 = 0` for odd digits.
-6. Use a `while` loop that runs while `bc > 0`.
-7. Extract the last digit using `bc % 10`.
-8. Remove the last digit using `bc = bc // 10`.
-9. Check whether `digit % 2 == 0`.
-10. If true, increase the even counter by 1.
-11. Otherwise, increase the odd counter by 1.
-12. Repeat until `bc` becomes `0`.
-13. Handle the special case where `n` is `0`, since zero is an even digit.
-14. Display both final counts outside the loop.
+2. Use `abs()` to handle negative numbers according to the program's chosen interpretation.
+3. Initialize `rev = 0` to store the reversed number.
+4. Store the original number in a working variable `bc`.
+5. Use a `while` loop that runs while `bc > 0`.
+6. Extract the last digit using `bc % 10`.
+7. Shift the reversed number one decimal place using `rev = rev * 10`.
+8. Add the extracted digit to `rev`.
+9. Remove the last digit using `bc = bc // 10`.
+10. Repeat until `bc` becomes `0`.
+11. Compare `rev` with the original absolute value of `n`.
+12. If both are equal, print that the number is a palindrome.
+13. Otherwise, print that it is not a palindrome.
 
 ### 🧪 Python Concepts Practised
 - User input using `input()`
 - Type conversion using `int()`
 - `while` loops
-- Conditional statements using `if`
+- Conditional statements using `if` and `else`
 - Modulus operator (`%`)
 - Integer division (`//`)
 - Working variables
 - Digit extraction
-- Increment operators (`+=`)
-- Counting and classification
-- Checking even and odd numbers
-- Handling negative numbers using `abs()`
-- Handling special cases
+- Number reversal
+- Comparison operators (`==`)
+- Boolean conditions
+- Reusing an algorithm to solve a new problem
 
 ### 📂 File
-`Q40.py`
+`Q41.py`
 
 ### 🚀 Challenge Progress
-- **Completed:** 40/100 questions
-- **Remaining:** 60 questions
+- **Completed:** 41/100 questions
+- **Remaining:** 59 questions
 
 > Every loop builds logic. Every problem builds experience.
 
