@@ -1,50 +1,51 @@
-# Day 42: Replace All Zeros with 5
+# Day 43: Sum of the First and Last Digit of a Number
 
 ## 🎯 Problem Statement
 
-Write a Python program to replace every occurrence of the digit `0` in a given number with `5`.
+Write a Python program to find the sum of the first and last digits of a given number.
 
 ### 🧪 Example
 
 **Input:**
 ```text
-Enter any number: 1020
+Enter any number: 58321
 ```
 
 **Output:**
 ```text
-1525
+First digit: 5
+Last digit: 1
+Sum: 6
 ```
 
 ### 💡 Approach
 
-The problem focuses on extracting and modifying individual digits of a number.
+The problem uses mathematical digit manipulation to extract the first and last digits.
 
-1. Extract the last digit using the modulo operator (`% 10`).
-2. Check whether the extracted digit is `0`.
-3. If it is zero, replace it with `5`.
-4. Rebuild the number using multiplication and addition.
-5. Repeat until all digits have been processed.
+1. Convert the input into a positive number using `abs()`.
+2. Extract the last digit using the modulo operator (`% 10`).
+3. Use a `while` loop with the condition `bc >= 10`.
+4. Repeatedly divide the number by 10 using integer division (`// 10`).
+5. When only one digit remains, that digit is the first digit.
+6. Add the first and last digits to calculate the final sum.
 
 ### 🧠 Concepts Practiced
 
-- `while` loops
-- Digit extraction using `%`
-- Integer division using `//`
-- Conditional statements
-- Number reversal and reconstruction
-- Working with individual digits
+- `while` loops and loop conditions
+- Digit extraction using `% 10`
+- Integer division using `// 10`
+- Variables and temporary copies
+- Working with first and last digits
+- Basic mathematical problem-solving
 
 ### 📂 File
 
-`Q42.py`
+`Q43.py`
 
 ### 📈 Progress
 
-**42 / 100 Questions Completed**
+**43 / 100 Questions Completed**
 
-58 questions remaining.
+57 questions remaining.
 
-> Every problem is another opportunity to improve logical thinking and become more confident with Python.
-
-**One step at a time. Keep building. 🚀**
+> Consistency builds logic. Every problem makes the next one easier. 🚀
