@@ -1,51 +1,60 @@
-# Day 43: Sum of the First and Last Digit of a Number
+# Day 44: Check Whether a Number Is Prime or Not
 
 ## 🎯 Problem Statement
 
-Write a Python program to find the sum of the first and last digits of a given number.
+Write a Python program to read a number and check whether it is prime or not.
 
 ### 🧪 Example
 
 **Input:**
 ```text
-Enter any number: 58321
+Enter a number: 7
 ```
 
 **Output:**
 ```text
-First digit: 5
-Last digit: 1
-Sum: 6
+7 is a prime number.
+```
+
+**Another Example:**
+```text
+Enter a number: 10
+```
+
+**Output:**
+```text
+10 is not a prime number.
 ```
 
 ### 💡 Approach
 
-The problem uses mathematical digit manipulation to extract the first and last digits.
+A prime number is a natural number greater than 1 that has exactly two factors: 1 and itself.
 
-1. Convert the input into a positive number using `abs()`.
-2. Extract the last digit using the modulo operator (`% 10`).
-3. Use a `while` loop with the condition `bc >= 10`.
-4. Repeatedly divide the number by 10 using integer division (`// 10`).
-5. When only one digit remains, that digit is the first digit.
-6. Add the first and last digits to calculate the final sum.
+1. Read a number from the user.
+2. Check whether the number is less than or equal to 1. Such numbers are not prime.
+3. Use a loop to check whether any number from 2 up to the number minus 1 divides it completely.
+4. Use the modulo operator (`%`) to check for a remainder of zero.
+5. If a divisor is found, the number is not prime.
+6. If no divisor is found, the number is prime.
 
 ### 🧠 Concepts Practiced
 
-- `while` loops and loop conditions
-- Digit extraction using `% 10`
-- Integer division using `// 10`
-- Variables and temporary copies
-- Working with first and last digits
-- Basic mathematical problem-solving
+- Conditional statements (`if-else`)
+- `for` or `while` loops
+- Modulo operator (`%`)
+- Divisibility and factors
+- Boolean flags
+- Basic number theory
+- Algorithmic problem-solving
 
 ### 📂 File
 
-`Q43.py`
+`Q44.py`
 
 ### 📈 Progress
 
-**43 / 100 Questions Completed**
+**44 / 100 Questions Completed**
 
-57 questions remaining.
+56 questions remaining.
 
-> Consistency builds logic. Every problem makes the next one easier. 🚀
+> Every problem strengthens the ability to turn mathematical logic into working code. Keep building! 🚀
