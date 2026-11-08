@@ -1,60 +1,52 @@
-# Day 44: Check Whether a Number Is Prime or Not
+# Day 45: Display All Prime Numbers from 1 to N
 
 ## 🎯 Problem Statement
 
-Write a Python program to read a number and check whether it is prime or not.
+Write a Python program to read a number `n` and display all prime numbers between 1 and `n`.
 
 ### 🧪 Example
 
 **Input:**
 ```text
-Enter a number: 7
+Enter a number: 20
 ```
 
 **Output:**
 ```text
-7 is a prime number.
-```
-
-**Another Example:**
-```text
-Enter a number: 10
-```
-
-**Output:**
-```text
-10 is not a prime number.
+Prime numbers between 1 and 20:
+2 3 5 7 11 13 17 19
 ```
 
 ### 💡 Approach
 
-A prime number is a natural number greater than 1 that has exactly two factors: 1 and itself.
+The problem combines loops, conditional statements, and prime-number checking.
 
-1. Read a number from the user.
-2. Check whether the number is less than or equal to 1. Such numbers are not prime.
-3. Use a loop to check whether any number from 2 up to the number minus 1 divides it completely.
-4. Use the modulo operator (`%`) to check for a remainder of zero.
-5. If a divisor is found, the number is not prime.
-6. If no divisor is found, the number is prime.
+1. Read the upper limit `n` from the user.
+2. Use an outer loop to iterate through every number from 2 to `n`.
+3. For each number, assume it is prime initially.
+4. Use an inner loop to check whether it is divisible by any number from 2 up to that number minus 1.
+5. If a divisor is found, mark the number as not prime.
+6. If no divisor is found, display the number.
+7. Repeat until all numbers up to `n` have been checked.
 
 ### 🧠 Concepts Practiced
 
+- Nested loops
+- Prime number identification
 - Conditional statements (`if-else`)
-- `for` or `while` loops
 - Modulo operator (`%`)
-- Divisibility and factors
 - Boolean flags
-- Basic number theory
-- Algorithmic problem-solving
+- Divisibility and factors
+- Basic algorithmic problem-solving
 
 ### 📂 File
 
-`Q44.py`
+`Q45.py`
 
 ### 📈 Progress
 
-**44 / 100 Questions Completed**
+**45 / 100 Questions Completed**
 
-56 questions remaining.
+55 questions remaining.
 
-> Every problem strengthens the ability to turn mathematical logic into working code. Keep building! 🚀
+> Learning to solve one problem is good. Learning to apply that logic repeatedly is how problem-solving skills develop. 🚀
