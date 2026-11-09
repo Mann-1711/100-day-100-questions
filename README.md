@@ -1,52 +1,59 @@
-# Day 45: Display All Prime Numbers from 1 to N
+# Day 46: Display the First N Prime Numbers
 
 ## 🎯 Problem Statement
 
-Write a Python program to read a number `n` and display all prime numbers between 1 and `n`.
+Write a Python program to read a number `n` and display the first `n` prime numbers.
 
 ### 🧪 Example
 
 **Input:**
 ```text
-Enter a number: 20
+Enter how many prime numbers: 5
 ```
 
 **Output:**
 ```text
-Prime numbers between 1 and 20:
-2 3 5 7 11 13 17 19
+2
+3
+5
+7
+11
 ```
 
 ### 💡 Approach
 
-The problem combines loops, conditional statements, and prime-number checking.
+The problem combines prime-number checking with nested loops and a counter.
 
-1. Read the upper limit `n` from the user.
-2. Use an outer loop to iterate through every number from 2 to `n`.
-3. For each number, assume it is prime initially.
-4. Use an inner loop to check whether it is divisible by any number from 2 up to that number minus 1.
-5. If a divisor is found, mark the number as not prime.
-6. If no divisor is found, display the number.
-7. Repeat until all numbers up to `n` have been checked.
+1. Read the number `n`, representing how many prime numbers need to be displayed.
+2. Initialise `num = 2`, since 2 is the smallest prime number.
+3. Initialise `count = 0` to track the number of primes found.
+4. Use a `while` loop that continues until `count` reaches `n`.
+5. Assume the current number is prime using a Boolean flag (`is_prime = True`).
+6. Use an inner `for` loop to check whether the current number has any divisors between 2 and `num - 1`.
+7. If a divisor is found, mark the number as non-prime and stop checking using `break`.
+8. If the number is prime, display it and increment the counter.
+9. Increment `num` to check the next candidate number.
+10. Repeat until the required number of prime numbers has been displayed.
 
 ### 🧠 Concepts Practiced
 
-- Nested loops
+- Nested loops (`while` and `for`)
 - Prime number identification
-- Conditional statements (`if-else`)
+- Boolean flags (`True` and `False`)
+- Counter variables
+- Conditional statements (`if`)
 - Modulo operator (`%`)
-- Boolean flags
-- Divisibility and factors
-- Basic algorithmic problem-solving
+- `break` statement
+- Algorithmic problem-solving
 
 ### 📂 File
 
-`Q45.py`
+`Q46.py`
 
 ### 📈 Progress
 
-**45 / 100 Questions Completed**
+**46 / 100 Questions Completed**
 
-55 questions remaining.
+54 questions remaining.
 
-> Learning to solve one problem is good. Learning to apply that logic repeatedly is how problem-solving skills develop. 🚀
+> Moving beyond individual problems and learning to combine logic, loops, and conditions into complete algorithms. 🚀
