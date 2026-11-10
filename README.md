@@ -1,59 +1,59 @@
-# Day 46: Display the First N Prime Numbers
+# Day 47: Armstrong Number
 
 ## 🎯 Problem Statement
+Write a program to check whether a given number is an Armstrong number.
 
-Write a Python program to read a number `n` and display the first `n` prime numbers.
+An Armstrong number is a number equal to the sum of its digits, each raised to the power of the total number of digits.
 
-### 🧪 Example
+### 🧪 Examples
 
-**Input:**
+**Example 1:**
 ```text
-Enter how many prime numbers: 5
+Input: 153
+Output: Armstrong Number
 ```
+Explanation: \(1^3 + 5^3 + 3^3 = 153\)
 
-**Output:**
+**Example 2:**
 ```text
-2
-3
-5
-7
-11
+Input: 123
+Output: Not an Armstrong Number
 ```
+Explanation: \(1^3 + 2^3 + 3^3 = 36\), which is not equal to 123.
 
-### 💡 Approach
+**Example 3:**
+```text
+Input: 1634
+Output: Armstrong Number
+```
+Explanation: \(1^4 + 6^4 + 3^4 + 4^4 = 1634\)
 
-The problem combines prime-number checking with nested loops and a counter.
+## 💡 Approach
+1. Take an integer as input.
+2. Preserve the original number for comparison.
+3. Count the total number of digits using a `while` loop.
+4. Extract each digit using the modulo operator (`% 10`).
+5. Raise each digit to the power of the total digit count.
+6. Add the powered digits to a running total.
+7. Compare the calculated total with the original number.
+8. Display whether the number is an Armstrong number.
 
-1. Read the number `n`, representing how many prime numbers need to be displayed.
-2. Initialise `num = 2`, since 2 is the smallest prime number.
-3. Initialise `count = 0` to track the number of primes found.
-4. Use a `while` loop that continues until `count` reaches `n`.
-5. Assume the current number is prime using a Boolean flag (`is_prime = True`).
-6. Use an inner `for` loop to check whether the current number has any divisors between 2 and `num - 1`.
-7. If a divisor is found, mark the number as non-prime and stop checking using `break`.
-8. If the number is prime, display it and increment the counter.
-9. Increment `num` to check the next candidate number.
-10. Repeat until the required number of prime numbers has been displayed.
+## 🧠 Concepts Practiced
+- `while` loops
+- Digit extraction using `%`
+- Integer division using `//`
+- Dynamic exponentiation using `**`
+- Accumulator variables
+- Conditional statements
+- Number manipulation
+- Debugging and edge-case handling
 
-### 🧠 Concepts Practiced
+## 📂 File
+`Q47.py`
 
-- Nested loops (`while` and `for`)
-- Prime number identification
-- Boolean flags (`True` and `False`)
-- Counter variables
-- Conditional statements (`if`)
-- Modulo operator (`%`)
-- `break` statement
-- Algorithmic problem-solving
+## 📈 Progress
+**47 / 100 Questions Completed**
 
-### 📂 File
+**53 Questions Remaining**
 
-`Q46.py`
-
-### 📈 Progress
-
-**46 / 100 Questions Completed**
-
-54 questions remaining.
-
-> Moving beyond individual problems and learning to combine logic, loops, and conditions into complete algorithms. 🚀
+> Every problem solved independently strengthens your ability to think like a programmer. Keep building! 🕷️
