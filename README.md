@@ -1,7 +1,7 @@
-# Day 47: Armstrong Number
+# Day 48: Display All Armstrong Numbers from 1 to n
 
 ## 🎯 Problem Statement
-Write a program to check whether a given number is an Armstrong number.
+Write a program to display all Armstrong numbers within a given range from 1 to n.
 
 An Armstrong number is a number equal to the sum of its digits, each raised to the power of the total number of digits.
 
@@ -9,51 +9,54 @@ An Armstrong number is a number equal to the sum of its digits, each raised to t
 
 **Example 1:**
 ```text
-Input: 153
-Output: Armstrong Number
+Input: 10
+Output: 1 2 3 4 5 6 7 8 9
 ```
-Explanation: \(1^3 + 5^3 + 3^3 = 153\)
 
 **Example 2:**
 ```text
-Input: 123
-Output: Not an Armstrong Number
+Input: 100
+Output: 1 2 3 4 5 6 7 8 9
 ```
-Explanation: \(1^3 + 2^3 + 3^3 = 36\), which is not equal to 123.
 
 **Example 3:**
 ```text
-Input: 1634
-Output: Armstrong Number
+Input: 500
+Output: 1 2 3 4 5 6 7 8 9 153 370 371 407
 ```
-Explanation: \(1^4 + 6^4 + 3^4 + 4^4 = 1634\)
 
 ## 💡 Approach
-1. Take an integer as input.
-2. Preserve the original number for comparison.
-3. Count the total number of digits using a `while` loop.
-4. Extract each digit using the modulo operator (`% 10`).
-5. Raise each digit to the power of the total digit count.
-6. Add the powered digits to a running total.
-7. Compare the calculated total with the original number.
-8. Display whether the number is an Armstrong number.
+1. Take the upper limit n as input.
+2. Use a `for` loop to iterate through every number from 1 to n.
+3. Reset the digit count and total for each candidate number.
+4. Preserve the current number in a temporary variable.
+5. Use a `while` loop to count the number of digits.
+6. Reset another temporary variable to the original candidate.
+7. Extract each digit using the modulo operator (`% 10`).
+8. Raise each digit to the power of the total digit count using (`**`).
+9. Add the powered digits to a running total.
+10. Compare the calculated total with the current candidate.
+11. Print the number if both values are equal.
 
 ## 🧠 Concepts Practiced
-- `while` loops
+- `for` and nested `while` loops
+- Loop nesting and indentation
 - Digit extraction using `%`
 - Integer division using `//`
 - Dynamic exponentiation using `**`
 - Accumulator variables
+- Variable initialization and resetting
+- Temporary variables
 - Conditional statements
 - Number manipulation
-- Debugging and edge-case handling
+- Debugging logical errors
 
 ## 📂 File
-`Q47.py`
+`Q48.py`
 
 ## 📈 Progress
-**47 / 100 Questions Completed**
+**48 / 100 Questions Completed**
 
-**53 Questions Remaining**
+**52 Questions Remaining**
 
-> Every problem solved independently strengthens your ability to think like a programmer. Keep building! 🕷️
+> Learning to control loops is learning to control logic. Every debugging session makes you a better problem solver! 🕷️
