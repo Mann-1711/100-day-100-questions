@@ -1,36 +1,38 @@
-## 🚀 100 Days, 100 Questions
+## Day 51: Automorphic Number
 
-**Progress: 50/100 Questions Completed (50%)**
+**Problem:** Write a program to check whether a number is an automorphic number.
 
-### 📌 Latest Question – Q50
+### What is an Automorphic Number?
+An automorphic number is a number whose square ends with the number itself.
 
-**Question 50: Strong Number**
+**Examples:**
+- 5 → 5² = 25 → Automorphic
+- 6 → 6² = 36 → Automorphic
+- 25 → 25² = 625 → Automorphic
+- 76 → 76² = 5776 → Automorphic
+- 12 → 12² = 144 → Not Automorphic
 
-Write a program to check whether a number is a **Strong Number** (the sum of the factorials of its digits equals the original number).
+### Approach
+1. Take an integer as input.
+2. Calculate its square.
+3. Count the digits in the original number using a `while` loop.
+4. Use modulo (`%`) and exponentiation (`**`) to extract the last digits of the square.
+5. Compare the extracted digits with the original number.
+6. Display whether the number is automorphic.
 
-**Example:**
-- Input: `145`
-- Calculation: `1! + 4! + 5! = 1 + 24 + 120 = 145`
-- Output: `145 is a strong number.`
-
-### 🧠 Concepts Practiced
+### Concepts Practiced
 - `while` loops
-- `for` loops
-- Digit extraction using `% 10`
-- Removing digits using `// 10`
-- Factorial calculation
-- Nested loops
-- Conditional statements
-- Accumulator variables
+- Digit counting using integer division (`//`)
+- Modulo operator (`%`)
+- Exponentiation (`**`)
+- Conditional statements (`if-else`)
+- Variables and temporary copies
+- Mathematical problem-solving
 
-### 💡 Approach
-1. Extract each digit from the number.
-2. Calculate the factorial of each digit using a `for` loop.
-3. Add each factorial to a running sum.
-4. Remove the extracted digit.
-5. Compare the calculated sum with the original number.
-6. Print whether the number is a Strong Number.
+### Python File
+`Q51.py`
 
-**File:** `Q50.py`
+### Progress
+**51/100 Questions Completed** 🎯
 
-**Status:** ✅ Completed
+49 questions remaining.
