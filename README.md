@@ -1,38 +1,49 @@
-## Day 51: Automorphic Number
+## Day 52: Harshad (Niven) Number
 
-**Problem:** Write a program to check whether a number is an automorphic number.
+### Problem Statement
+Write a Python program to check whether a given number is a **Harshad (Niven) number**.
 
-### What is an Automorphic Number?
-An automorphic number is a number whose square ends with the number itself.
+A Harshad number is a number that is divisible by the sum of its own digits.
 
-**Examples:**
-- 5 → 5² = 25 → Automorphic
-- 6 → 6² = 36 → Automorphic
-- 25 → 25² = 625 → Automorphic
-- 76 → 76² = 5776 → Automorphic
-- 12 → 12² = 144 → Not Automorphic
+### Example
+
+**Input:** `18`
+
+- Sum of digits = 1 + 8 = 9
+- 18 % 9 = 0
+
+**Output:** `18 is a Harshad (Niven) number.`
+
+**Input:** `19`
+
+- Sum of digits = 1 + 9 = 10
+- 19 % 10 != 0
+
+**Output:** `19 is not a Harshad (Niven) number.`
 
 ### Approach
 1. Take an integer as input.
-2. Calculate its square.
-3. Count the digits in the original number using a `while` loop.
-4. Use modulo (`%`) and exponentiation (`**`) to extract the last digits of the square.
-5. Compare the extracted digits with the original number.
-6. Display whether the number is automorphic.
+2. Convert it to its absolute value.
+3. Create a copy of the number to preserve the original value.
+4. Extract each digit using the modulo operator (`% 10`).
+5. Calculate the sum of all digits.
+6. Remove the last digit using integer division (`// 10`).
+7. Check whether the original number is divisible by the digit sum.
+8. Display whether the number is a Harshad number.
 
 ### Concepts Practiced
 - `while` loops
-- Digit counting using integer division (`//`)
-- Modulo operator (`%`)
-- Exponentiation (`**`)
+- Digit extraction using `%`
+- Integer division using `//`
+- Accumulator variables
 - Conditional statements (`if-else`)
-- Variables and temporary copies
-- Mathematical problem-solving
+- Divisibility checks
+- Preserving original values using a copy variable
 
-### Python File
-`Q51.py`
+### File
+`Q52.py`
 
 ### Progress
-**51/100 Questions Completed** 🎯
+**52/100 Questions Completed**
 
-49 questions remaining.
+**48 Questions Remaining**
