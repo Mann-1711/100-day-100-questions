@@ -1,49 +1,47 @@
-## Day 52: Harshad (Niven) Number
+## Day 53: Find All Factors (Divisors) of a Number
 
 ### Problem Statement
-Write a Python program to check whether a given number is a **Harshad (Niven) number**.
+Write a Python program to find and display all factors (divisors) of a given number `n`.
 
-A Harshad number is a number that is divisible by the sum of its own digits.
+A factor of a number is an integer that divides the number completely, leaving a remainder of zero.
 
 ### Example
 
-**Input:** `18`
+**Input:**
+```text
+Enter any number: 12
+```
 
-- Sum of digits = 1 + 8 = 9
-- 18 % 9 = 0
-
-**Output:** `18 is a Harshad (Niven) number.`
-
-**Input:** `19`
-
-- Sum of digits = 1 + 9 = 10
-- 19 % 10 != 0
-
-**Output:** `19 is not a Harshad (Niven) number.`
+**Output:**
+```text
+All factors of 12 are:
+1
+2
+3
+4
+6
+12
+```
 
 ### Approach
-1. Take an integer as input.
-2. Convert it to its absolute value.
-3. Create a copy of the number to preserve the original value.
-4. Extract each digit using the modulo operator (`% 10`).
-5. Calculate the sum of all digits.
-6. Remove the last digit using integer division (`// 10`).
-7. Check whether the original number is divisible by the digit sum.
-8. Display whether the number is a Harshad number.
+1. Take an integer `n` as input.
+2. Use a `for` loop to iterate from `1` to `n`.
+3. Check whether `n % i == 0`.
+4. If the condition is true, `i` is a factor of `n`.
+5. Display all the factors.
 
 ### Concepts Practiced
-- `while` loops
-- Digit extraction using `%`
-- Integer division using `//`
-- Accumulator variables
-- Conditional statements (`if-else`)
+- `for` loops
+- Conditional statements (`if`)
+- Modulo operator (`%`)
 - Divisibility checks
-- Preserving original values using a copy variable
+- Factors and divisors
+- Iteration and filtering
 
 ### File
-`Q52.py`
+`Q53.py`
 
 ### Progress
-**52/100 Questions Completed**
+**53/100 Questions Completed**
 
-**48 Questions Remaining**
+**47 Questions Remaining**
