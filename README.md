@@ -1,9 +1,7 @@
-## Day 53: Find All Factors (Divisors) of a Number
+## Day 54: Count the Number of Factors of a Number
 
 ### Problem Statement
-Write a Python program to find and display all factors (divisors) of a given number `n`.
-
-A factor of a number is an integer that divides the number completely, leaving a remainder of zero.
+Write a Python program to count the total number of factors (divisors) of a given number `n`.
 
 ### Example
 
@@ -14,34 +12,35 @@ Enter any number: 12
 
 **Output:**
 ```text
-All factors of 12 are:
-1
-2
-3
-4
-6
-12
+The total number of factors of 12: 6
 ```
+
+**Explanation:**
+
+The factors of 12 are `1, 2, 3, 4, 6, 12`.
+
+Therefore, the total number of factors is **6**.
 
 ### Approach
 1. Take an integer `n` as input.
-2. Use a `for` loop to iterate from `1` to `n`.
-3. Check whether `n % i == 0`.
-4. If the condition is true, `i` is a factor of `n`.
-5. Display all the factors.
+2. Initialize a counter variable to `0`.
+3. Iterate from `1` to `n` using a `for` loop.
+4. Check whether `n % i == 0`.
+5. If true, increment the counter by `1`.
+6. Print the final count.
 
 ### Concepts Practiced
 - `for` loops
-- Conditional statements (`if`)
+- `if` statements
+- Counter variables
 - Modulo operator (`%`)
 - Divisibility checks
 - Factors and divisors
-- Iteration and filtering
 
 ### File
-`Q53.py`
+`Q54.py`
 
 ### Progress
-**53/100 Questions Completed**
+**54/100 Questions Completed**
 
-**47 Questions Remaining**
+**46 Questions Remaining**
