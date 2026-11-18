@@ -1,46 +1,37 @@
-## Day 54: Count the Number of Factors of a Number
+## Q55 – GCD (HCF) of Two Numbers
 
-### Problem Statement
-Write a Python program to count the total number of factors (divisors) of a given number `n`.
+**File:** `Q55.py`
+
+### Problem
+Write a Python program to find the Greatest Common Divisor (GCD), also known as the Highest Common Factor (HCF), of two numbers.
+
+### Concepts Used
+- `for` loops
+- Lists
+- `append()` method
+- Membership operator (`in`)
+- Conditional statements
+- `max()` function
+
+### Logic
+1. Take two numbers as input.
+2. Find all factors of the first number and store them in a list.
+3. Find all factors of the second number and store them in another list.
+4. Identify the common factors of both numbers.
+5. Find the maximum value among the common factors. This is the GCD/HCF.
 
 ### Example
-
 **Input:**
 ```text
-Enter any number: 12
+Enter first number: 12
+Enter second number: 18
 ```
 
 **Output:**
 ```text
-The total number of factors of 12: 6
+Common factors: [1, 2, 3, 6]
+GCD (HCF): 6
 ```
 
-**Explanation:**
-
-The factors of 12 are `1, 2, 3, 4, 6, 12`.
-
-Therefore, the total number of factors is **6**.
-
-### Approach
-1. Take an integer `n` as input.
-2. Initialize a counter variable to `0`.
-3. Iterate from `1` to `n` using a `for` loop.
-4. Check whether `n % i == 0`.
-5. If true, increment the counter by `1`.
-6. Print the final count.
-
-### Concepts Practiced
-- `for` loops
-- `if` statements
-- Counter variables
-- Modulo operator (`%`)
-- Divisibility checks
-- Factors and divisors
-
-### File
-`Q54.py`
-
 ### Progress
-**54/100 Questions Completed**
-
-**46 Questions Remaining**
+**Day 55 / 100** – Completed
