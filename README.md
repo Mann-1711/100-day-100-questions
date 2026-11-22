@@ -1,68 +1,67 @@
-## Q58 – Sum of First N Terms of Fibonacci Series
-
-**File:** `Q58.py`
+# Q59: Sum of the Series (1 + 2 + 3 + ... + n)
 
 ### Problem Statement
-Write a Python program to find the sum of the first `n` terms of the Fibonacci series.
+Write a Python program to find the sum of the series:
+
+`1 + 2 + 3 + ... + n`
+
+### File
+`Q59.py`
 
 ### Concepts Used
-- Variables
+- `input()` and `int()`
+- `abs()` function
+- `if-else` condition
 - `for` loop
-- Arithmetic operators (`+`)
+- `range()` function
 - Accumulator variable
-- Variable updating
-- `range()`
-- User input
+
+### Code
+```python
+n = int(input("Enter any number:"))
+n = abs(n)
+
+if n == 0:
+    print(0)
+else:
+    total = 0
+    for i in range(1, n+1):
+        total = total + i
+    print(total)
+```
 
 ### Logic
-1. Take the number of terms (`n`) from the user.
-2. Initialize two variables:
-   - `a = 0`
-   - `b = 1`
-3. Initialize `total = 0` to store the sum.
-4. Run a loop `n` times.
-5. Add the current Fibonacci number (`a`) to `total`.
-6. Calculate the next Fibonacci number using `c = a + b`.
-7. Update the variables:
-   - `a = b`
-   - `b = c`
-8. Print the final sum after the loop ends.
-
-### Formula
-
-Fibonacci sequence:
-
-\[
-F(n)=F(n-1)+F(n-2)
-\]
-
-Sum of the first `n` terms:
-
-\[
-S_n=F_0+F_1+\cdots+F_{n-1}
-\]
+1. Take an integer input from the user.
+2. Use `abs()` to convert a negative number into its positive equivalent.
+3. If the number is zero, print `0`.
+4. Otherwise, initialize `total = 0`.
+5. Use a `for` loop from `1` to `n`.
+6. Add each value of `i` to `total`.
+7. Print the final sum.
 
 ### Example
 
 **Input:**
 ```text
-Enter number of terms: 5
+Enter any number: 5
 ```
 
-**Fibonacci Series:**
+**Calculation:**
 ```text
-0 1 1 2 3
+1 + 2 + 3 + 4 + 5 = 15
 ```
 
 **Output:**
 ```text
-Sum of Fibonacci series: 7
+15
 ```
 
-### Key Learning
-- Learned how to calculate the sum of a sequence using an accumulator.
-- Practised updating variables inside a loop.
-- Reused Fibonacci logic to solve a new problem.
-- Understood why the accumulator must be updated before changing the current Fibonacci term.
+### Mathematical Formula
+The sum of the first `n` natural numbers can also be calculated using:
 
-**Day 58 / 100 – Python Coding Challenge**
+`S = n * (n + 1) / 2`
+
+### Key Learning
+Learned how to use an accumulator variable inside a loop to calculate the sum of a series. Also practised handling negative inputs using `abs()`.
+
+**Day 59/100**
