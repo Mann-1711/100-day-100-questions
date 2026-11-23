@@ -1,67 +1,60 @@
-# Q59: Sum of the Series (1 + 2 + 3 + ... + n)
+## Q60: Sum of the Series of Squares
 
-### Problem Statement
-Write a Python program to find the sum of the series:
+**Problem Statement:**  
+Write a program to find the sum of the series:
 
-`1 + 2 + 3 + ... + n`
+\[
+1^2 + 2^2 + 3^2 + \cdots + n^2
+\]
 
-### File
-`Q59.py`
+**File:** `Q60.py`
 
 ### Concepts Used
-- `input()` and `int()`
-- `abs()` function
-- `if-else` condition
-- `for` loop
-- `range()` function
-- Accumulator variable
-
-### Code
-```python
-n = int(input("Enter any number:"))
-n = abs(n)
-
-if n == 0:
-    print(0)
-else:
-    total = 0
-    for i in range(1, n+1):
-        total = total + i
-    print(total)
-```
+- User Input
+- Integer (`int`)
+- For Loop
+- `range()`
+- Exponentiation (`**`)
+- Accumulator (`total`)
 
 ### Logic
-1. Take an integer input from the user.
-2. Use `abs()` to convert a negative number into its positive equivalent.
-3. If the number is zero, print `0`.
-4. Otherwise, initialize `total = 0`.
-5. Use a `for` loop from `1` to `n`.
-6. Add each value of `i` to `total`.
-7. Print the final sum.
+1. Take an integer `n` as input.
+2. Initialize `total = 0`.
+3. Run a loop from `1` to `n`.
+4. Square the current number using `i**2`.
+5. Add the squared value to `total`.
+6. Print the final sum after the loop.
 
 ### Example
 
 **Input:**
 ```text
-Enter any number: 5
+Enter any number: 4
 ```
 
 **Calculation:**
 ```text
-1 + 2 + 3 + 4 + 5 = 15
+1² + 2² + 3² + 4²
+= 1 + 4 + 9 + 16
+= 30
 ```
 
 **Output:**
 ```text
-15
+30
 ```
 
 ### Mathematical Formula
-The sum of the first `n` natural numbers can also be calculated using:
 
-`S = n * (n + 1) / 2`
+The sum of squares can also be calculated using:
+
+\[
+S = \frac{n(n+1)(2n+1)}{6}
+\]
 
 ### Key Learning
-Learned how to use an accumulator variable inside a loop to calculate the sum of a series. Also practised handling negative inputs using `abs()`.
+- Practised using loops to calculate a mathematical series.
+- Learned how to square numbers using the exponentiation operator (`**`).
+- Strengthened the understanding of accumulators and iterative calculations.
 
-**Day 59/100**
+**Day 60/100 — Completed**
