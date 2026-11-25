@@ -1,53 +1,60 @@
-## Q61: Sum of the Harmonic Series
+# Q62: Calculate Power Without Using Inbuilt Power
 
-**Problem Statement:**  
-Write a program to find the sum of the series:
+**File:** `Q62.py`
+
+## Problem Statement
+Write a Python program to find the value of `x` raised to the power `y` without using the inbuilt power function.
+
+## Concepts Used
+- User input (`int()`)
+- Conditional statements (`if`)
+- For loops
+- Repeated multiplication
+- `abs()` function
+- Arithmetic operations
+- Negative exponents
+
+## Logic
+1. Take the base (`x`) and exponent (`y`) as input.
+2. Initialize `result = 1`.
+3. If the exponent is positive, multiply the result by the base repeatedly.
+4. If the exponent is negative:
+   - Convert the exponent to its positive value using `abs()`.
+   - Perform repeated multiplication.
+   - Calculate the reciprocal using `1/result`.
+5. Handle special cases such as zero raised to zero and zero raised to a negative exponent.
+
+## Mathematical Formula
+
+For positive exponents:
 
 \[
-1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{n}
+x^y = \underbrace{x \times x \times \cdots \times x}_{y\text{ times}}
 \]
 
-**File:** `Q61.py`
+For negative exponents:
 
-### Concepts Used
-- User Input (`input()`)
-- Integer Conversion (`int()`)
-- For Loop
-- `range()`
-- Floating-Point Division (`/`)
-- Accumulator (`total`)
+\[
+x^{-y} = \frac{1}{x^y}
+\]
 
-### Logic
-1. Take an integer `n` as input.
-2. Initialize `total = 0`.
-3. Run a loop from `1` to `n`.
-4. Calculate the reciprocal of the current number using `1/i`.
-5. Add the calculated value to `total`.
-6. Print the final sum after the loop.
-
-### Example
+## Example
 
 **Input:**
 ```text
-Enter any number: 4
-```
-
-**Calculation:**
-```text
-1 + 1/2 + 1/3 + 1/4
-= 1 + 0.5 + 0.3333 + 0.25
-= 2.0833
+Enter any number: 2
+Enter any exponent: -3
 ```
 
 **Output:**
 ```text
-2.083333333333333
+0.125
 ```
 
-### Key Learning
-- Practised calculating mathematical series using a `for` loop.
-- Understood floating-point division in Python.
-- Learned to accumulate fractional values using a variable.
-- Strengthened loop-based mathematical problem-solving skills.
+## Key Learning
+- Understood how exponentiation works through repeated multiplication.
+- Learned how to handle negative exponents using reciprocals.
+- Practised preserving the sign of the base and handling special cases.
+- Improved understanding of loops and conditional statements.
 
-**Day 61/100 — Completed**
+**Day 62/100**
