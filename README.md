@@ -1,60 +1,56 @@
-# Q62: Calculate Power Without Using Inbuilt Power
+## Day 63 – Right-Angled Triangle Star Pattern
 
-**File:** `Q62.py`
+### Problem Statement
+Write a program to print a right-angled triangle pattern of stars (`*`) of height `n`.
 
-## Problem Statement
-Write a Python program to find the value of `x` raised to the power `y` without using the inbuilt power function.
+### File
+`Day_63.py`
 
-## Concepts Used
-- User input (`int()`)
-- Conditional statements (`if`)
-- For loops
-- Repeated multiplication
-- `abs()` function
-- Arithmetic operations
-- Negative exponents
+### Concepts Used
+- Nested `for` loops
+- `range()` function
+- `print()` function
+- `end=""` parameter
+- Pattern printing
 
-## Logic
-1. Take the base (`x`) and exponent (`y`) as input.
-2. Initialize `result = 1`.
-3. If the exponent is positive, multiply the result by the base repeatedly.
-4. If the exponent is negative:
-   - Convert the exponent to its positive value using `abs()`.
-   - Perform repeated multiplication.
-   - Calculate the reciprocal using `1/result`.
-5. Handle special cases such as zero raised to zero and zero raised to a negative exponent.
+### Logic
+1. Take the height `n` as input from the user.
+2. Use the outer loop to control the number of rows.
+3. Use the inner loop to print stars in each row.
+4. The number of stars in each row is equal to the current row number.
+5. Use `end=""` to print stars on the same line.
+6. Use an empty `print()` after the inner loop to move to the next row.
 
-## Mathematical Formula
+### Code
 
-For positive exponents:
+```python
+n = int(input("Enter any number:"))
 
-\[
-x^y = \underbrace{x \times x \times \cdots \times x}_{y\text{ times}}
-\]
+for i in range(1, n+1):
+    for a in range(1, i+1):
+        print("*", end="")
+    print()
+```
 
-For negative exponents:
-
-\[
-x^{-y} = \frac{1}{x^y}
-\]
-
-## Example
+### Example
 
 **Input:**
 ```text
-Enter any number: 2
-Enter any exponent: -3
+4
 ```
 
 **Output:**
 ```text
-0.125
+*
+**
+***
+****
 ```
 
-## Key Learning
-- Understood how exponentiation works through repeated multiplication.
-- Learned how to handle negative exponents using reciprocals.
-- Practised preserving the sign of the base and handling special cases.
-- Improved understanding of loops and conditional statements.
+### Key Learning
+- Understood how nested loops work together.
+- Learned how the outer loop controls rows and the inner loop controls columns.
+- Understood the importance of indentation in nested loops.
+- Learned how `end=""` prevents automatic line breaks.
 
-**Day 62/100**
+### Day 63/100
