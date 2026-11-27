@@ -1,56 +1,65 @@
-## Day 63 – Right-Angled Triangle Star Pattern
+# Day 64 – Inverted Right-Angled Triangle Pattern
 
 ### Problem Statement
-Write a program to print a right-angled triangle pattern of stars (`*`) of height `n`.
+Write a Python program to print an inverted right-angled triangle pattern of stars using nested `while` loops.
 
 ### File
-`Day_63.py`
+`Day_64.py`
 
 ### Concepts Used
-- Nested `for` loops
-- `range()` function
-- `print()` function
-- `end=""` parameter
-- Pattern printing
+- While Loops
+- Nested While Loops
+- Conditional Statements
+- Loop Counters
+- `print()` and `end` parameter
 
 ### Logic
-1. Take the height `n` as input from the user.
-2. Use the outer loop to control the number of rows.
-3. Use the inner loop to print stars in each row.
-4. The number of stars in each row is equal to the current row number.
-5. Use `end=""` to print stars on the same line.
-6. Use an empty `print()` after the inner loop to move to the next row.
+1. Take the height of the triangle as input from the user.
+2. Initialize `i = n` to represent the number of stars in the first row.
+3. Use an outer `while` loop to control the rows.
+4. Initialize `a = 1` inside the outer loop to reset the star counter for every row.
+5. Use an inner `while` loop to print stars until `a` becomes greater than `i`.
+6. Use `print()` to move to the next line.
+7. Decrease `i` by 1 after every row.
 
 ### Code
 
 ```python
 n = int(input("Enter any number:"))
 
-for i in range(1, n+1):
-    for a in range(1, i+1):
-        print("*", end="")
+i = n
+
+while i >= 1:
+    a = 1
+
+    while a <= i:
+        print("*", end=" ")
+        a += 1
+
     print()
+    i -= 1
 ```
 
-### Example
+### Example Output
 
 **Input:**
 ```text
-4
+Enter any number: 5
 ```
 
 **Output:**
 ```text
+* * * * *
+* * * *
+* * *
+* *
 *
-**
-***
-****
 ```
 
 ### Key Learning
-- Understood how nested loops work together.
-- Learned how the outer loop controls rows and the inner loop controls columns.
-- Understood the importance of indentation in nested loops.
-- Learned how `end=""` prevents automatic line breaks.
+- Understood how nested `while` loops work.
+- Learned how to reset an inner loop counter for every row.
+- Practised decreasing the number of iterations in each row.
+- Understood how to control rows and columns using two variables.
 
-### Day 63/100
+**Day 64/100 – Consistency over shortcuts.**
