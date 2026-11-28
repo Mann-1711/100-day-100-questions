@@ -1,43 +1,41 @@
-# Day 64 – Inverted Right-Angled Triangle Pattern
+# Day 65 – Pyramid Pattern of Stars
 
 ### Problem Statement
-Write a Python program to print an inverted right-angled triangle pattern of stars using nested `while` loops.
+Write a Python program to print a pyramid pattern of stars of height `n` using nested `for` loops.
 
 ### File
-`Day_64.py`
+`Day_65.py`
 
 ### Concepts Used
-- While Loops
-- Nested While Loops
-- Conditional Statements
+- Nested For Loops
+- `range()` Function
 - Loop Counters
+- String Printing
 - `print()` and `end` parameter
 
 ### Logic
-1. Take the height of the triangle as input from the user.
-2. Initialize `i = n` to represent the number of stars in the first row.
-3. Use an outer `while` loop to control the rows.
-4. Initialize `a = 1` inside the outer loop to reset the star counter for every row.
-5. Use an inner `while` loop to print stars until `a` becomes greater than `i`.
-6. Use `print()` to move to the next line.
-7. Decrease `i` by 1 after every row.
+1. Take the height of the pyramid as input from the user.
+2. Use an outer `for` loop to control the rows.
+3. Use the first inner loop to print leading spaces.
+   - Number of spaces = `n - i`
+4. Use the second inner loop to print stars.
+   - Number of stars = `2 * i - 1`
+5. Use `end=""` to print spaces and stars on the same line.
+6. Use `print()` after both inner loops to move to the next row.
 
 ### Code
 
 ```python
 n = int(input("Enter any number:"))
 
-i = n
+for i in range(1, n + 1):
+    for a in range(1, (n - i) + 1):
+        print(" ", end="")
 
-while i >= 1:
-    a = 1
-
-    while a <= i:
-        print("*", end=" ")
-        a += 1
+    for b in range(1, (2 * i - 1) + 1):
+        print("*", end="")
 
     print()
-    i -= 1
 ```
 
 ### Example Output
@@ -49,17 +47,15 @@ Enter any number: 5
 
 **Output:**
 ```text
-* * * * *
-* * * *
-* * *
-* *
-*
+    *
+   ***
+  *****
+ *******
+*********
 ```
 
 ### Key Learning
-- Understood how nested `while` loops work.
-- Learned how to reset an inner loop counter for every row.
-- Practised decreasing the number of iterations in each row.
-- Understood how to control rows and columns using two variables.
-
-**Day 64/100 – Consistency over shortcuts.**
+- Learned how to create pyramid patterns using nested loops.
+- Understood how leading spaces control the alignment of a pyramid.
+- Learned that the number of stars increases by 2 in each row.
+- Improved understanding of Python's `range()`
